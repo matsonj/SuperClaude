@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated command count references from 18 to 19 across documentation files
 - Corrected `/task` command flag syntax in index.md to use colon operations
 
-## [2.0.1] - 2025-06-26
+## [0.0.1] - 2025-06-26
 
 ### Added
 - `--introspect` flag for framework self-analysis and improvement capabilities

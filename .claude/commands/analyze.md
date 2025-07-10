@@ -1,4 +1,4 @@
-**Purpose**: Multi-dimensional code and system analysis
+**Purpose**: Multi-dimensional marketing and campaign analysis
 
 ---
 
@@ -9,33 +9,74 @@ Execute: immediate. --plan→show plan first
 Legend: Generated based on symbols used in command
 Purpose: "[Action][Subject] in $ARGUMENTS"
 
-Multi-dimensional analysis on code, arch, or problem in $ARGUMENTS.
+Multi-dimensional analysis on campaigns, content, audience, or performance data in $ARGUMENTS.
 
 @include shared/flag-inheritance.yml#Universal_Always
 
 Examples:
-- `/analyze --code --think` - Code review w/ context
-- `/analyze --arch --think-hard` - Deep arch analysis  
-- `/analyze --security --ultrathink` - Comprehensive security audit
+- `/analyze --campaign --motherduck` - Campaign performance analysis with data
+- `/analyze --brand --seq` - Deep brand consistency analysis  
+- `/analyze --audience --hubspot --think` - Comprehensive audience segmentation
+- `/analyze --competitive --think-hard` - Strategic competitive analysis
 
 Analysis modes:
 
-**--code:** Quality review→naming, structure, DRY, complexity | Bugs→null checks, boundaries, types | Security→injection, auth, validation | Perf→O(n²), N+1, memory
+**--campaign:** Performance review→metrics, conversion, ROI | Issues→underperformance, attribution, targeting | Optimization→A/B tests, segments, channels | Trends→growth, seasonal, lifecycle
 
-**--arch:** System design & patterns | Layer coupling | Scalability bottlenecks | Maintainability assessment | Improvement suggestions
+**--brand:** Brand consistency & compliance | Voice alignment across channels | Visual identity usage | Message coherence assessment | Brand guideline adherence
 
-**--profile:** CPU, memory, execution time | Network latency, DB queries | Frontend metrics | Bottleneck identification | Optimization recommendations  
+**--audience:** Customer segmentation & behavior | Journey mapping & touchpoints | Engagement patterns & preferences | Conversion funnel analysis | Persona validation & insights
 
-**--security:** OWASP top 10 | Auth & authorization | Data handling & encryption | Attack vector identification
+**--competitive:** Market positioning & differentiation | Competitive messaging & strategy | Share of voice & presence | Campaign tactics & performance | Opportunity identification
 
-**--perf:** Bottleneck analysis | Algorithm complexity | DB queries & indexes | Caching strategies | Resource utilization
+**--content:** Performance metrics & engagement | Brand voice consistency | SEO optimization & ranking | Social sharing & virality | Conversion attribution & optimization
 
-**--watch:** Continuous file monitoring | Real-time quality tracking | Auto re-analysis | Live metrics
+**--funnel:** Conversion path analysis | Drop-off point identification | Attribution modeling | Customer journey optimization | Multi-touch analysis
 
-**--interactive:** Guided exploration | Step-by-step fixes | Live improvement
+## MCP Integration Patterns
 
-@include shared/research-patterns.yml#Mandatory_Research_Flows
+**MotherDuck Integration:**
+- Campaign performance data extraction and analysis
+- Customer behavior pattern analysis
+- ROI and attribution modeling
+- Cohort analysis and retention metrics
 
-@include shared/docs-patterns.yml#Standard_Notifications
+**HubSpot Integration:**
+- Customer segmentation and persona analysis
+- Lead scoring and qualification analysis
+- Campaign attribution and pipeline analysis
+- Customer lifecycle and journey mapping
 
-@include shared/universal-constants.yml#Standard_Messages_Templates
+**Google Analytics Integration:**
+- Website performance and user behavior analysis
+- Content engagement and conversion analysis
+- Traffic source attribution and optimization
+- Goal completion and funnel analysis
+
+**Sequential Analysis:**
+- Complex strategic market analysis
+- Multi-factor competitive positioning
+- Customer journey optimization strategies
+- Campaign performance root cause analysis
+
+## Marketing Persona Activation
+
+Auto-activates appropriate personas based on analysis type:
+- Campaign analysis → Growth Marketer persona
+- Brand analysis → Brand Strategist persona  
+- Content analysis → Content Creator persona
+- Audience analysis → Product Marketer persona
+- Performance analysis → SQL Auditor persona
+
+@include shared/marketing-quality-patterns.yml#Marketing_Severity_Levels
+
+## Output Standards
+
+Analysis reports include:
+- **Executive Summary**: Key findings and recommendations
+- **Data Sources**: All data sources with timestamps and links
+- **Evidence**: Supporting metrics and visualizations
+- **Recommendations**: Prioritized action items with expected impact
+- **Next Steps**: Specific implementation guidance
+
+@include shared/marketing-docs-patterns.yml#Documentation_Quality

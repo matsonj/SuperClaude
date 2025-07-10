@@ -21,13 +21,15 @@ Universal_Always:
     --ultrathink: "Critical system redesign (32K tokens)"
     
   MCP_Control:
-    --c7: "Enable Context7→library documentation lookup"
+    --motherduck: "Enable MotherDuck→data analytics & SQL validation"
+    --hubspot: "Enable HubSpot→CRM & customer insights"
+    --google-analytics: "Enable Google Analytics→web metrics"
     --seq: "Enable Sequential→complex analysis & thinking"
-    --magic: "Enable Magic→UI component generation"
-    --pup: "Enable Puppeteer→browser automation & testing"
+    --magic: "Enable Magic→content generation & creative"
+    --pup: "Enable Puppeteer→A/B testing & automation"
     --all-mcp: "Enable all MCP servers"
     --no-mcp: "Disable all MCP servers (native tools only)"
-    --no-c7: "Disable Context7 specifically"
+    --no-motherduck: "Disable MotherDuck specifically"
     --no-seq: "Disable Sequential thinking specifically"
     --no-magic: "Disable Magic UI builder specifically"
     --no-pup: "Disable Puppeteer specifically"
@@ -69,11 +71,12 @@ Performance:
   --threshold: "Set quality target (default high)"
   --watch-perf: "Continuous performance monitoring"
   
-Development:
-  --tdd: "Test-driven development workflow"
-  --feature: "Feature-focused implementation"
-  --init: "Initialize new project/component"
-  --all: "Comprehensive operation across all areas"
+Marketing:
+  --ab-test: "A/B testing setup and analysis"
+  --brand-audit: "Comprehensive brand compliance audit"
+  --campaign-launch: "Full campaign launch workflow"
+  --content-calendar: "Content calendar planning and execution"
+  --customer-journey: "Customer journey mapping and optimization"
 ```
 
 ## Command Group Templates
@@ -82,19 +85,19 @@ Development:
 Analysis_Commands:
   # analyze, scan, troubleshoot
   Standard_Flags:
-    --code: "Analyze code quality & structure"
-    --arch: "Analyze system architecture & design"
-    --perf: "Analyze performance & bottlenecks"
-    --profile: "Detailed performance profiling"
-    --security: "Security vulnerability analysis"
-    --deps: "Dependency analysis & audit"
+    --campaign: "Analyze campaign performance & optimization"
+    --brand: "Analyze brand consistency & compliance"
+    --audience: "Analyze audience behavior & segmentation"
+    --competitive: "Competitive analysis & market positioning"
+    --content: "Content performance & engagement analysis"
+    --funnel: "Conversion funnel analysis & optimization"
     
 Build_Commands:
   # build, design, deploy  
   Standard_Flags:
-    --init: "Initialize new project w/ stack setup"
-    --feature: "Implement feature using existing patterns"
-    --api: "API-focused development"
+    --campaign: "Build comprehensive marketing campaign"
+    --content: "Create engaging marketing content"
+    --strategy: "Develop marketing strategy & positioning"
     --react: "React/frontend focused build"
     --tdd: "Test-driven development workflow"
     --magic: "Use Magic for UI component generation"

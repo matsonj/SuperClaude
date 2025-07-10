@@ -1,9 +1,9 @@
-# SuperClaude Commands Reference v2.0.1
+# SuperClaude Marketing Commands Reference v0.0.1
 
 ## Table of Contents
 - [Quick Start](#quick-start)
 - [Universal Flags (Available on ALL Commands)](#universal-flags-available-on-all-commands)
-- [Personas as Flags](#personas-as-flags)
+- [Marketing Personas as Flags](#marketing-personas-as-flags)
 - [Complete Command Reference](#complete-command-reference)
 - [Flag Combinations & Best Practices](#flag-combinations--best-practices)
 
@@ -15,12 +15,12 @@
 
 **Example Commands**:
 ```bash
-/review --files src/ --quality --evidence    # Comprehensive code review with evidence
-/analyze --code --persona-architect          # Code analysis with architect mindset
-/build --react --magic --tdd                # Build React app with AI components
-/troubleshoot --prod --five-whys --seq      # Production debugging with reasoning
-/task:create "Add user authentication"       # Create and manage complex features
-/deploy --env prod --plan --validate        # Safe production deployment
+/analyze --campaign --motherduck --persona-growth-marketer    # Campaign performance analysis
+/build --content --magic --hubspot --persona-content-creator # Content creation with CRM data
+/test --ab-test --pup --statistical                         # A/B testing with automation
+/validate --sql --performance --persona-sql-auditor         # Data validation and optimization
+/review --brand --consistency --persona-editor              # Brand compliance review
+/deploy --campaign --monitor --validate                     # Safe campaign launch
 ```
 
 ---
@@ -30,9 +30,9 @@
 ### 🧠 Thinking Depth Control
 | Flag | Description | Token Usage |
 |------|-------------|-------------|
-| `--think` | Multi-file analysis with expanded context | ~4K tokens |
-| `--think-hard` | Architecture-level depth analysis | ~10K tokens |
-| `--ultrathink` | Critical system analysis with maximum depth | ~32K tokens |
+| `--think` | Multi-dimensional analysis with expanded context | ~4K tokens |
+| `--think-hard` | Strategic-level depth analysis | ~10K tokens |
+| `--ultrathink` | Critical market analysis with maximum depth | ~32K tokens |
 
 ### 📦 Token Optimization
 | Flag | Alias | Description |
@@ -42,21 +42,23 @@
 ### 🔧 MCP Server Control
 | Flag | Description |
 |------|-------------|
-| `--c7` | Enable Context7 documentation lookup |
+| `--motherduck` | Enable MotherDuck for data analytics & SQL validation |
+| `--hubspot` | Enable HubSpot for CRM & customer insights |
+| `--google-analytics` | Enable Google Analytics for web metrics |
 | `--seq` | Enable Sequential thinking analysis |
-| `--magic` | Enable Magic UI component generation |
-| `--pup` | Enable Puppeteer browser automation |
+| `--magic` | Enable Magic for content generation & creative |
+| `--pup` | Enable Puppeteer for A/B testing & automation |
 | `--all-mcp` | Enable all MCP servers for maximum capability |
 | `--no-mcp` | Disable all MCP servers (native tools only) |
-| `--no-c7` | Disable Context7 specifically |
+| `--no-motherduck` | Disable MotherDuck specifically |
 | `--no-seq` | Disable Sequential thinking specifically |
-| `--no-magic` | Disable Magic UI builder specifically |
+| `--no-magic` | Disable Magic content generation specifically |
 | `--no-pup` | Disable Puppeteer specifically |
 
-### 🔍 Analysis & Introspection
+### 🔍 Analysis & Brand Compliance
 | Flag | Description |
 |------|-------------|
-| `--introspect` | Enable self-aware analysis with cognitive transparency |
+| `--brand-audit` | Enable comprehensive brand compliance checking |
 
 ### 📋 Planning & Execution
 | Flag | Description |
@@ -71,471 +73,378 @@
 | Flag | Description |
 |------|-------------|
 | `--validate` | Enhanced pre-execution safety checks |
-| `--security` | Security-focused analysis and validation |
-| `--coverage` | Generate comprehensive coverage analysis |
+| `--brand` | Brand compliance-focused analysis and validation |
+| `--coverage` | Generate comprehensive analysis coverage |
 | `--strict` | Zero-tolerance mode with enhanced validation |
+
+### 📊 Marketing-Specific Flags
+| Flag | Description |
+|------|-------------|
+| `--ab-test` | A/B testing setup and analysis |
+| `--campaign-launch` | Full campaign launch workflow |
+| `--content-calendar` | Content calendar planning and execution |
+| `--customer-journey` | Customer journey mapping and optimization |
 
 ---
 
-## Personas as Flags
+## Marketing Personas as Flags
 
-All personas are now integrated as flags, available on every command:
+All marketing personas are now integrated as flags, available on every command:
 
 | Persona Flag | Expertise | Best For |
 |--------------|-----------|----------|
-| `--persona-architect` | Systems thinking, scalability, patterns | Architecture decisions, system design |
-| `--persona-frontend` | UI/UX obsessed, accessibility-first | User interfaces, component design |
-| `--persona-backend` | APIs, databases, reliability | Server architecture, data modeling |
-| `--persona-analyzer` | Root cause analysis, evidence-based | Complex debugging, investigations |
-| `--persona-security` | Threat modeling, zero-trust, OWASP | Security audits, vulnerability assessment |
-| `--persona-mentor` | Teaching, guided learning, clarity | Documentation, knowledge transfer |
-| `--persona-refactorer` | Code quality, maintainability | Code cleanup, technical debt |
-| `--persona-performance` | Optimization, profiling, efficiency | Performance tuning, bottlenecks |
-| `--persona-qa` | Testing, edge cases, validation | Quality assurance, test coverage |
+| `--persona-product-marketer` | Market positioning, competitive analysis | Go-to-market strategy, positioning |
+| `--persona-growth-marketer` | A/B testing, conversion optimization | Growth experiments, funnel analysis |
+| `--persona-content-creator` | Creative content, multi-channel | Social media, creative campaigns |
+| `--persona-technical-writer` | Documentation, user guides | API docs, help content |
+| `--persona-editor` | Content quality, brand compliance | Content review, style consistency |
+| `--persona-brand-strategist` | Brand strategy, narrative | Brand positioning, voice guidelines |
+| `--persona-sql-auditor` | Data validation, SQL optimization | Analytics validation, data quality |
 
 ---
 
 ## Complete Command Reference
 
-### 🛠️ Development Commands (3)
+### 🚀 Campaign & Strategy Commands (4)
 
-#### `/build` - Universal Project Builder
-Build projects, features, and components using modern stack templates.
+#### `/analyze` - Multi-Dimensional Marketing Analysis
+Comprehensive analysis of campaigns, audiences, competitors, and performance data.
 
 **Command-Specific Flags:**
-- `--init` - Initialize new project with stack setup
-- `--feature` - Implement feature using existing patterns
-- `--tdd` - Test-driven development workflow
-- `--react` - React with Vite, TypeScript, Router
-- `--api` - Express.js API with TypeScript
-- `--fullstack` - Complete React + Node.js + Docker
-- `--mobile` - React Native with Expo
-- `--cli` - Commander.js CLI with testing
+- `--campaign` - Campaign performance and optimization analysis
+- `--brand` - Brand consistency and compliance analysis
+- `--audience` - Customer segmentation and behavior analysis
+- `--competitive` - Market positioning and competitive analysis
+- `--content` - Content performance and engagement analysis
+- `--funnel` - Conversion funnel analysis and optimization
 
 **Examples:**
 ```bash
-/build --init --react --magic --tdd         # New React app with AI components
-/build --feature "auth system" --tdd        # Feature with tests
-/build --api --openapi --seq                # API with documentation
+/analyze --campaign --motherduck --persona-growth-marketer    # Campaign performance analysis
+/analyze --competitive --seq --persona-product-marketer      # Strategic competitive analysis
+/analyze --funnel --conversion --motherduck                  # Conversion funnel analysis
 ```
 
-#### `/dev-setup` - Development Environment
-Configure professional development environments with CI/CD and monitoring.
+#### `/build` - Marketing Campaign and Content Builder
+Build comprehensive marketing campaigns, content, and strategies.
 
 **Command-Specific Flags:**
-- `--install` - Install and configure dependencies
-- `--ci` - CI/CD pipeline configuration
-- `--monitor` - Monitoring and observability setup
-- `--docker` - Containerization setup
-- `--testing` - Testing infrastructure
-- `--team` - Team collaboration tools
-- `--standards` - Code quality standards
+- `--campaign` - Build complete marketing campaigns
+- `--content` - Create engaging marketing content
+- `--strategy` - Develop marketing strategy and positioning
+
+**Campaign Types:**
+- `--product-launch` - Product launch campaign development
+- `--brand-awareness` - Brand awareness campaign creation
+- `--lead-generation` - Lead generation campaign building
+- `--customer-retention` - Customer retention campaign development
 
 **Examples:**
 ```bash
-/dev-setup --install --ci --monitor         # Complete environment
-/dev-setup --team --standards --docs        # Team setup
+/build --campaign --motherduck --magic --hubspot            # Data-driven campaign
+/build --content --magic --persona-content-creator         # Creative content creation
+/build --strategy --positioning --seq                      # Strategic planning
 ```
 
-#### `/test` - Comprehensive Testing Framework
-Create, run, and maintain testing strategies across the stack.
+#### `/design` - Brand and Campaign Strategy
+Strategic brand development and campaign architecture.
 
 **Command-Specific Flags:**
-- `--e2e` - End-to-end testing
-- `--integration` - Integration testing
-- `--unit` - Unit testing
-- `--visual` - Visual regression testing
-- `--mutation` - Mutation testing
-- `--performance` - Performance testing
-- `--accessibility` - Accessibility testing
-- `--parallel` - Parallel test execution
+- `--brand` - Brand strategy and identity development
+- `--campaign` - Campaign architecture and strategy
+- `--customer-journey` - Customer journey mapping
+- `--messaging` - Messaging framework development
 
 **Examples:**
 ```bash
-/test --coverage --e2e --pup               # Full test suite
-/test --mutation --strict                  # Test quality validation
+/design --brand --narrative --persona-brand-strategist     # Brand strategy development
+/design --customer-journey --touchpoints --hubspot        # Customer journey mapping
 ```
 
-### 🔍 Analysis & Improvement Commands (5)
-
-#### `/review` - AI-Powered Code Review
-Comprehensive code review and quality analysis with evidence-based recommendations.
+#### `/test` - A/B Testing and Optimization Framework
+Comprehensive marketing testing and optimization.
 
 **Command-Specific Flags:**
-- `--files` - Review specific files or directories
-- `--commit` - Review changes in specified commit (HEAD, hash, range)
-- `--pr` - Review pull request changes (git diff main..branch)
-- `--quality` - Focus on code quality issues (DRY, SOLID, complexity)
-- `--evidence` - Include sources and documentation for all suggestions
-- `--fix` - Suggest specific fixes for identified issues
-- `--summary` - Generate executive summary of review findings
+- `--ab-test` - A/B testing workflow with statistical analysis
+- `--content` - Content performance testing
+- `--campaign` - Campaign performance testing
+- `--landing-page` - Landing page optimization testing
+- `--email` - Email campaign testing
+- `--conversion` - Conversion rate optimization testing
 
 **Examples:**
 ```bash
-/review --files src/auth.ts --persona-security    # Security-focused file review
-/review --commit HEAD --quality --evidence        # Quality review with sources
-/review --pr 123 --all --interactive             # Comprehensive PR review
-/review --files src/ --persona-performance --think # Performance analysis
+/test --ab-test --pup --statistical --persona-growth-marketer  # A/B testing
+/test --landing-page --conversion --pup                       # Landing page testing
+/test --content --engagement --google-analytics               # Content testing
 ```
 
-#### `/analyze` - Multi-Dimensional Analysis
-Comprehensive analysis of code, architecture, performance, and security.
+### 📝 Content & Brand Commands (3)
+
+#### `/review` - Content and Brand Compliance Review
+Comprehensive content review and brand compliance analysis.
 
 **Command-Specific Flags:**
-- `--code` - Code quality analysis
-- `--architecture` - System design assessment
-- `--profile` - Performance profiling
-- `--deps` - Dependency analysis
-- `--surface` - Quick overview
-- `--deep` - Comprehensive analysis
-- `--forensic` - Detailed investigation
+- `--brand` - Brand compliance and consistency review
+- `--content` - Content quality and style review
+- `--guidelines` - Brand guideline adherence check
+- `--consistency` - Cross-platform consistency analysis
 
 **Examples:**
 ```bash
-/analyze --code --architecture --seq       # Full analysis
-/analyze --profile --deep --persona-performance  # Performance deep-dive
+/review --brand --consistency --persona-brand-strategist    # Brand compliance review
+/review --content --quality --persona-editor               # Content quality review
 ```
 
-#### `/troubleshoot` - Professional Debugging
-Systematic debugging and issue resolution.
+#### `/document` - Marketing Documentation Creation
+Professional marketing documentation in multiple formats.
 
 **Command-Specific Flags:**
-- `--investigate` - Systematic issue analysis
-- `--five-whys` - Root cause analysis
-- `--prod` - Production debugging
-- `--perf` - Performance investigation
-- `--fix` - Complete resolution
-- `--hotfix` - Emergency fixes
-- `--rollback` - Safe rollback
+- `--brand-guidelines` - Brand guideline documentation
+- `--content-calendar` - Content calendar documentation
+- `--campaign-playbook` - Campaign playbook creation
+- `--user-guide` - User-facing documentation
 
 **Examples:**
 ```bash
-/troubleshoot --prod --five-whys --seq    # Production RCA
-/troubleshoot --perf --fix --pup          # Performance fix
+/document --brand-guidelines --visual --persona-brand-strategist  # Brand guidelines
+/document --user-guide --interactive --persona-technical-writer  # User documentation
 ```
 
-#### `/improve` - Enhancement & Optimization
+#### `/improve` - Content and Campaign Optimization
 Evidence-based improvements with measurable outcomes.
 
 **Command-Specific Flags:**
-- `--quality` - Code structure improvements
-- `--performance` - Performance optimization
-- `--accessibility` - Accessibility improvements
-- `--iterate` - Iterative improvement
-- `--threshold` - Quality target percentage
-- `--refactor` - Systematic refactoring
-- `--modernize` - Technology updates
+- `--content` - Content optimization and enhancement
+- `--campaign` - Campaign performance optimization
+- `--conversion` - Conversion rate optimization
+- `--brand` - Brand alignment and consistency improvements
 
 **Examples:**
 ```bash
-/improve --quality --iterate --threshold 95%    # Quality improvement
-/improve --performance --cache --pup            # Performance boost
+/improve --conversion --data-driven --persona-growth-marketer   # Conversion optimization
+/improve --brand --alignment --persona-brand-strategist        # Brand optimization
 ```
 
-#### `/explain` - Technical Documentation
-Generate comprehensive explanations and documentation.
+### 📊 Analytics & Data Commands (4)
+
+#### `/validate` - Data Quality and SQL Validation
+Comprehensive data validation and SQL quality assurance.
 
 **Command-Specific Flags:**
-- `--depth` - Complexity level (ELI5|beginner|intermediate|expert)
-- `--visual` - Include diagrams
-- `--examples` - Code examples
-- `--api` - API documentation
-- `--architecture` - System documentation
-- `--tutorial` - Learning tutorials
-- `--reference` - Reference docs
+- `--sql` - SQL query validation and optimization
+- `--data` - Data quality and accuracy validation
+- `--performance` - Query performance optimization
+- `--analytics` - Analytics setup and validation
 
 **Examples:**
 ```bash
-/explain --depth expert --visual --seq     # Expert documentation
-/explain --api --examples --c7             # API docs with examples
+/validate --sql --performance --persona-sql-auditor        # SQL validation
+/validate --analytics --tracking --google-analytics       # Analytics validation
 ```
 
-### ⚙️ Operations Commands (6)
-
-#### `/deploy` - Application Deployment
-Safe deployment with rollback capabilities.
+#### `/scan` - Performance and Compliance Auditing
+Comprehensive auditing of marketing performance and compliance.
 
 **Command-Specific Flags:**
-- `--env` - Target environment (dev|staging|prod)
-- `--canary` - Canary deployment
-- `--blue-green` - Blue-green deployment
-- `--rolling` - Rolling deployment
-- `--checkpoint` - Create checkpoint
-- `--rollback` - Rollback to previous
-- `--monitor` - Post-deployment monitoring
+- `--performance` - Campaign and content performance audit
+- `--compliance` - Brand and legal compliance scanning
+- `--quality` - Content and campaign quality validation
 
 **Examples:**
 ```bash
-/deploy --env prod --canary --monitor      # Canary production deploy
-/deploy --rollback --env prod              # Emergency rollback
+/scan --performance --comprehensive --motherduck           # Performance audit
+/scan --compliance --brand --strict                       # Compliance audit
 ```
 
-#### `/migrate` - Database & Code Migration
-Safe migrations with rollback capabilities.
+#### `/estimate` - Campaign Planning and Budgeting
+Professional estimation for marketing campaigns and projects.
 
 **Command-Specific Flags:**
-- `--database` - Database migrations
-- `--code` - Code migrations
-- `--config` - Configuration migrations
-- `--dependencies` - Dependency updates
-- `--backup` - Create backup first
-- `--rollback` - Rollback migration
-- `--validate` - Data integrity checks
+- `--campaign` - Campaign budget and timeline estimation
+- `--roi` - ROI projection and analysis
+- `--resources` - Resource requirement planning
 
 **Examples:**
 ```bash
-/migrate --database --backup --validate    # Safe DB migration
-/migrate --code --dry-run                  # Preview code changes
+/estimate --campaign --detailed --roi --motherduck         # Campaign estimation
+/estimate --resources --timeline --complexity              # Resource planning
 ```
 
-#### `/scan` - Security & Validation
-Comprehensive security auditing and compliance.
+#### `/troubleshoot` - Marketing Analytics Debugging
+Systematic debugging of marketing analytics and campaign issues.
 
 **Command-Specific Flags:**
-- `--owasp` - OWASP Top 10 compliance
-- `--secrets` - Secret detection
-- `--compliance` - Regulatory compliance
-- `--quality` - Code quality validation
-- `--automated` - Continuous monitoring
+- `--analytics` - Analytics tracking and data issues
+- `--campaign` - Campaign performance troubleshooting
+- `--attribution` - Marketing attribution debugging
 
 **Examples:**
 ```bash
-/scan --security --owasp --deps           # Security audit
-/scan --compliance --gdpr --strict        # Compliance check
+/troubleshoot --analytics --investigate --motherduck       # Analytics debugging
+/troubleshoot --campaign --performance --seq               # Campaign troubleshooting
 ```
 
-#### `/estimate` - Project Estimation
-Professional estimation with risk assessment.
+### ⚙️ Operations Commands (4)
+
+#### `/deploy` - Campaign Launch and Management
+Safe campaign deployment with monitoring capabilities.
 
 **Command-Specific Flags:**
-- `--detailed` - Comprehensive breakdown
-- `--rough` - Quick estimation
-- `--worst-case` - Pessimistic estimate
-- `--agile` - Story point estimation
-- `--complexity` - Technical assessment
-- `--resources` - Resource planning
-- `--timeline` - Timeline planning
-- `--risk` - Risk assessment
+- `--campaign` - Campaign launch and deployment
+- `--content` - Content publishing and distribution
+- `--monitor` - Post-launch monitoring setup
 
 **Examples:**
 ```bash
-/estimate --detailed --complexity --risk   # Full estimation
-/estimate --agile --story-points          # Agile planning
+/deploy --campaign --monitor --validate                    # Safe campaign launch
+/deploy --content --multi-channel --schedule              # Content deployment
 ```
 
-#### `/cleanup` - Project Maintenance
-Professional cleanup with safety validations.
+#### `/migrate` - Platform and Data Migrations
+Safe migrations of marketing platforms and data.
 
 **Command-Specific Flags:**
-- `--code` - Remove dead code
-- `--files` - Clean build artifacts
-- `--deps` - Remove unused dependencies
-- `--git` - Clean git repository
-- `--all` - Comprehensive cleanup
-- `--aggressive` - Deep cleanup
-- `--conservative` - Safe cleanup
+- `--platform` - Marketing platform migrations
+- `--data` - Customer and campaign data migrations
+- `--content` - Content and asset migrations
 
 **Examples:**
 ```bash
-/cleanup --all --dry-run                  # Preview cleanup
-/cleanup --code --deps --validate         # Code cleanup
+/migrate --platform --backup --validate                   # Platform migration
+/migrate --data --hubspot --motherduck                   # Data migration
 ```
 
-#### `/git` - Git Workflow Management
-Professional Git operations with safety features.
+#### `/cleanup` - Campaign and Asset Maintenance
+Professional cleanup of marketing assets and campaigns.
 
 **Command-Specific Flags:**
-- `--status` - Repository status
-- `--commit` - Professional commit
-- `--branch` - Branch management
-- `--sync` - Remote synchronization
-- `--checkpoint` - Create checkpoint
-- `--merge` - Smart merge
-- `--history` - History analysis
-- `--pre-commit` - Setup and run pre-commit hooks
+- `--campaigns` - Clean up old campaigns and assets
+- `--content` - Remove outdated content and files
+- `--data` - Clean up marketing data and analytics
 
 **Examples:**
 ```bash
-/git --checkpoint "before refactor"       # Safety checkpoint
-/git --commit --validate --test          # Safe commit
-/git --pre-commit                        # Setup pre-commit hooks
-/git --commit --pre-commit               # Commit with validation
+/cleanup --campaigns --dry-run                           # Preview campaign cleanup
+/cleanup --content --assets --validate                   # Content cleanup
 ```
 
-### 🎨 Design & Architecture Commands (1)
-
-#### `/design` - System Architecture
-Professional system design with specifications.
+#### `/git` - Version Control for Marketing Assets
+Professional Git operations for marketing asset management.
 
 **Command-Specific Flags:**
-- `--api` - REST/GraphQL design
-- `--ddd` - Domain-driven design
-- `--microservices` - Microservices architecture
-- `--event-driven` - Event patterns
-- `--openapi` - OpenAPI specs
-- `--graphql` - GraphQL schema
-- `--bounded-context` - DDD contexts
-- `--integration` - Integration patterns
+- `--assets` - Marketing asset version control
+- `--campaigns` - Campaign version management
+- `--content` - Content version control
 
 **Examples:**
 ```bash
-/design --api --ddd --openapi --seq      # API with DDD
-/design --microservices --event-driven   # Microservices design
-```
-
-### 🔄 Workflow Commands (4)
-
-#### `/spawn` - Specialized Agents
-Spawn focused agents for parallel tasks.
-
-**Command-Specific Flags:**
-- `--task` - Define specific task
-- `--parallel` - Concurrent execution
-- `--specialized` - Domain expertise
-- `--collaborative` - Multi-agent work
-- `--sync` - Synchronize results
-- `--merge` - Merge outputs
-
-**Examples:**
-```bash
-/spawn --task "frontend tests" --parallel  # Parallel testing
-/spawn --collaborative --sync              # Team simulation
-```
-
-#### `/document` - Documentation Creation
-Professional documentation in multiple formats.
-
-**Command-Specific Flags:**
-- `--user` - User guides
-- `--technical` - Developer docs
-- `--markdown` - Markdown format
-- `--interactive` - Interactive docs
-- `--multilingual` - Multi-language
-- `--maintain` - Maintenance plan
-
-**Examples:**
-```bash
-/document --api --interactive --examples   # API documentation
-/document --user --visual --multilingual   # User guides
-```
-
-#### `/load` - Project Context Loading
-Load and analyze project context.
-
-**Command-Specific Flags:**
-- `--depth` - Analysis depth (shallow|normal|deep)
-- `--context` - Context preservation
-- `--patterns` - Pattern recognition
-- `--relationships` - Dependency mapping
-- `--structure` - Project structure
-- `--health` - Project health
-- `--standards` - Coding standards
-
-**Examples:**
-```bash
-/load --depth deep --patterns --seq       # Deep analysis
-/load --structure --health --standards   # Project assessment
-```
-
-#### `/task` - Task Management
-Complex feature management across sessions with automatic breakdown and recovery.
-
-**Command-Specific Operations:**
-- `/task:create [description]` - Create new task with automatic breakdown
-- `/task:status [task-id]` - Check task status and progress
-- `/task:resume [task-id]` - Resume work after break
-- `/task:update [task-id] [updates]` - Update task progress and requirements
-- `/task:complete [task-id]` - Mark task as done with summary
-
-**Key Features:**
-- **Smart Breakdown**: Automatic complexity analysis and subtask creation
-- **Context Preservation**: Save working state across sessions
-- **Progress Tracking**: Automatic updates and blocker detection
-- **Session Recovery**: Resume from checkpoints with full context
-
-**Examples:**
-```bash
-/task:create "Implement OAuth 2.0 authentication system"  # Create complex feature
-/task:status oauth-task-id                               # Check progress
-/task:resume oauth-task-id                               # Resume after break
-/task:update oauth-task-id "Found library conflict"      # Update with discoveries
-/task:complete oauth-task-id                             # Complete with summary
+/git --checkpoint "before campaign launch"               # Safety checkpoint
+/git --commit --validate --assets                       # Commit marketing assets
 ```
 
 ---
 
 ## Flag Combinations & Best Practices
 
-### 🚀 Professional Workflows
+### 🚀 Professional Marketing Workflows
 
-**Full-Stack Development**
+**Product Launch Campaign**
 ```bash
-/design --api --ddd --persona-architect
-/build --fullstack --tdd --magic
-/test --coverage --e2e --pup
-/deploy --env staging --validate
+/analyze --market --competitive --persona-product-marketer
+/build --campaign --product-launch --magic --hubspot
+/test --landing-page --conversion --pup
+/deploy --campaign --monitor --validate
 ```
 
-**Security-First Development**
+**Brand Consistency Audit**
 ```bash
-/scan --security --owasp --deps --persona-security
-/analyze --security --forensic --seq
-/improve --security --validate --strict
-/test --security --coverage
+/analyze --brand --compliance --persona-brand-strategist
+/review --brand --consistency --strict
+/improve --brand --alignment --iterate
+/validate --guidelines --zero-tolerance
 ```
 
-**Performance Optimization**
+**Growth Optimization Campaign**
 ```bash
-/analyze --profile --deep --persona-performance
-/troubleshoot --perf --investigate --pup
-/improve --performance --iterate --threshold 90%
-/test --performance --load
+/analyze --funnel --conversion --motherduck --persona-growth-marketer
+/test --ab-test --statistical --pup
+/improve --conversion --data-driven --iterate
+/validate --performance --roi
 ```
 
-**Quality Assurance**
+**Content Marketing Strategy**
 ```bash
-/review --quality --evidence --persona-qa
-/improve --quality --refactor --strict
-/scan --validate --quality
-/test --coverage --mutation
+/analyze --audience --segmentation --hubspot --persona-content-creator
+/build --content-calendar --seo --magic
+/test --content --engagement --google-analytics
+/document --style-guide --brand
 ```
 
 ### 💡 Best Practices
 
 1. **Always validate risky operations**
    ```bash
-   /deploy --env prod --validate --plan
-   /migrate --database --dry-run --backup
+   /deploy --campaign --validate --plan
+   /migrate --data --dry-run --backup
    ```
 
 2. **Use personas for specialized expertise**
    ```bash
-   /analyze --architecture --persona-architect
-   /scan --security --persona-security
+   /analyze --campaign --persona-growth-marketer
+   /review --brand --persona-brand-strategist
    ```
 
 3. **Combine MCP servers for maximum capability**
    ```bash
-   /build --react --magic --seq --c7
-   /test --e2e --pup --coverage
+   /build --campaign --motherduck --hubspot --magic
+   /test --ab-test --pup --google-analytics
    ```
 
-4. **Progressive thinking for complex tasks**
+4. **Progressive thinking for complex marketing tasks**
    ```bash
-   /troubleshoot --investigate --think
-   /design --microservices --think-hard
-   /analyze --architecture --ultrathink
+   /analyze --competitive --think
+   /build --strategy --think-hard
+   /analyze --market --ultrathink
    ```
 
 ### 🎯 Quick Reference
 
 **High-Risk Operations**: Always use `--validate` or `--dry-run`
-**Documentation Tasks**: Enable `--c7` for library lookups
-**Complex Analysis**: Use `--seq` for reasoning
-**UI Development**: Enable `--magic` for AI components
-**Testing**: Use `--pup` for browser automation
+**Data Analysis Tasks**: Enable `--motherduck` for analytics
+**Customer Research**: Use `--hubspot` for CRM insights
+**Content Creation**: Enable `--magic` for creative generation
+**A/B Testing**: Use `--pup` for browser automation
+**Web Analytics**: Enable `--google-analytics` for metrics
 **Token Saving**: Add `--uc` for 70% reduction
+
+### 📊 Marketing-Specific Combinations
+
+**Campaign Performance Analysis**
+```bash
+/analyze --campaign --motherduck --google-analytics --persona-growth-marketer
+```
+
+**Brand Compliance Review**
+```bash
+/review --brand --consistency --strict --persona-brand-strategist
+```
+
+**Content Creation Workflow**
+```bash
+/build --content --magic --hubspot --persona-content-creator
+```
+
+**Data Validation Process**
+```bash
+/validate --sql --performance --motherduck --persona-sql-auditor
+```
+
+**A/B Testing Campaign**
+```bash
+/test --ab-test --pup --statistical --persona-growth-marketer
+```
 
 ---
 
-**SuperClaude v2.0.1** - 19 professional commands | 9 cognitive personas | Advanced MCP integration | Evidence-based methodology
+**SuperClaude v0.0.1 Marketing Edition** - 14 marketing commands | 7 marketing personas | Advanced MCP integration | Evidence-based marketing methodology

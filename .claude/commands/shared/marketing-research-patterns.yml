@@ -1,0 +1,239 @@
+# Marketing Research Flow Templates
+# Consolidated research patterns for marketing implementations
+
+## Legend
+@include universal-constants.yml#Universal_Legend
+
+## Mandatory Marketing Research Flows
+
+```yaml
+Mandatory_Marketing_Research_Flows:
+  Customer_Research:
+    Step_1: "Identify target audience and segments"
+    Step_2: "HubSpot lookup for customer data and insights"
+    Step_3: "Verify customer pain points and preferences"
+    Step_4: "Check market size and opportunity"
+    Step_5: "Document customer personas in implementation"
+    
+  Competitive_Research:
+    Step_1: "Identify direct and indirect competitors"
+    Step_2: "MotherDuck analysis for competitive performance data"
+    Step_3: "Sequential thinking for competitive positioning"
+    Step_4: "Validate differentiation opportunities"
+    Step_5: "Document competitive landscape and positioning"
+    
+  Campaign_Performance_Research:
+    Step_1: "Define campaign objectives and KPIs"
+    Step_2: "Google Analytics lookup for baseline metrics"
+    Step_3: "MotherDuck analysis for historical performance"
+    Step_4: "Sequential analysis for optimization opportunities"
+    Step_5: "Document performance benchmarks and targets"
+    
+  Content_Research:
+    Step_1: "Identify content gaps and opportunities"
+    Step_2: "Sequential analysis for content strategy"
+    Step_3: "Google Analytics for content performance data"
+    Step_4: "Magic component search for creative inspiration"
+    Step_5: "Document content strategy and guidelines"
+    
+  Brand_Research:
+    Step_1: "Audit current brand consistency and perception"
+    Step_2: "HubSpot customer sentiment and feedback data"
+    Step_3: "Sequential thinking for brand positioning analysis"
+    Step_4: "Competitive brand analysis and differentiation"
+    Step_5: "Document brand strategy and guidelines"
+```
+
+## Research Quality Standards
+
+```yaml
+Research_Standards:
+  Data_Validation:
+    Source_Verification: "All data sources must be verified and current"
+    Cross_Reference: "Multiple sources required for critical insights"
+    Timestamp: "All research dated with data collection period"
+    
+  Evidence_Requirements:
+    Quantitative: "Performance metrics with statistical significance"
+    Qualitative: "Customer feedback and market insights"
+    Competitive: "Verified competitive intelligence"
+    
+  Documentation:
+    Citations: "All sources properly cited with links"
+    Methodology: "Research approach documented"
+    Limitations: "Known limitations and biases acknowledged"
+```
+
+## MCP Research Workflows
+
+```yaml
+MotherDuck_Research_Flow:
+  Data_Extraction:
+    Customer_Analytics: "Extract customer behavior and preference data"
+    Campaign_Performance: "Historical campaign performance analysis"
+    Market_Trends: "Market trend analysis and forecasting"
+    
+  Analysis_Patterns:
+    Segmentation: "Customer segmentation and persona development"
+    Attribution: "Marketing attribution and ROI analysis"
+    Forecasting: "Performance forecasting and scenario planning"
+    
+HubSpot_Research_Flow:
+  Customer_Insights:
+    Contact_Analysis: "Customer profile and behavior analysis"
+    Deal_Pipeline: "Sales pipeline and conversion analysis"
+    Campaign_Attribution: "Marketing campaign attribution"
+    
+  Segmentation:
+    Behavioral: "Customer behavior-based segmentation"
+    Demographic: "Demographic and firmographic segmentation"
+    Lifecycle: "Customer lifecycle stage analysis"
+    
+Google_Analytics_Research_Flow:
+  User_Behavior:
+    Traffic_Analysis: "Website traffic patterns and sources"
+    Conversion_Funnel: "Conversion funnel analysis and optimization"
+    Content_Performance: "Content engagement and effectiveness"
+    
+  Performance_Metrics:
+    Acquisition: "Customer acquisition channel performance"
+    Engagement: "User engagement and retention metrics"
+    Conversion: "Conversion rate and optimization opportunities"
+```
+
+## Sequential Thinking Patterns
+
+```yaml
+Strategic_Analysis_Flow:
+  Market_Analysis:
+    Problem_Definition: "Define market opportunity and challenges"
+    Hypothesis_Formation: "Develop strategic hypotheses"
+    Evidence_Gathering: "Collect supporting evidence"
+    Analysis_Synthesis: "Synthesize insights and recommendations"
+    
+  Campaign_Strategy:
+    Objective_Setting: "Define clear campaign objectives"
+    Audience_Analysis: "Deep audience research and segmentation"
+    Message_Development: "Develop compelling messaging strategy"
+    Channel_Selection: "Optimize channel mix and tactics"
+    
+  Competitive_Positioning:
+    Market_Mapping: "Map competitive landscape"
+    Differentiation_Analysis: "Identify differentiation opportunities"
+    Value_Proposition: "Develop unique value proposition"
+    Positioning_Strategy: "Create compelling market position"
+```
+
+## Content Research Patterns
+
+```yaml
+Content_Strategy_Research:
+  Audience_Research:
+    Persona_Development: "Detailed customer persona research"
+    Journey_Mapping: "Customer journey and touchpoint analysis"
+    Content_Preferences: "Content format and channel preferences"
+    
+  Performance_Analysis:
+    Content_Audit: "Existing content performance analysis"
+    Gap_Analysis: "Content gap identification and prioritization"
+    Competitive_Content: "Competitive content strategy analysis"
+    
+  Optimization_Research:
+    SEO_Research: "Keyword and search optimization research"
+    Engagement_Analysis: "Content engagement and sharing analysis"
+    Conversion_Research: "Content conversion and attribution analysis"
+```
+
+## Brand Research Workflows
+
+```yaml
+Brand_Consistency_Research:
+  Voice_Analysis:
+    Current_State: "Audit current brand voice consistency"
+    Competitor_Analysis: "Competitive brand voice analysis"
+    Customer_Perception: "Customer brand perception research"
+    
+  Visual_Identity:
+    Asset_Audit: "Visual asset consistency audit"
+    Usage_Analysis: "Brand asset usage and compliance"
+    Guidelines_Review: "Brand guideline effectiveness review"
+    
+  Market_Positioning:
+    Perception_Research: "Market perception and awareness research"
+    Differentiation_Analysis: "Brand differentiation and positioning"
+    Opportunity_Identification: "Brand enhancement opportunities"
+```
+
+## Research Documentation Templates
+
+```yaml
+Research_Report_Template: |
+  # Marketing Research Report: {Topic}
+  **Date:** {YYYY-MM-DD}
+  **Researcher:** {Marketing Persona}
+  **Research Period:** {Start Date} - {End Date}
+  
+  ## Objective
+  - Research question
+  - Success criteria
+  - Scope and limitations
+  
+  ## Methodology
+  - Data sources
+  - Analysis approach
+  - Tools used
+  
+  ## Key Findings
+  1. Primary insight with evidence
+  2. Secondary insight with evidence
+  3. Supporting findings
+  
+  ## Recommendations
+  1. Priority 1 recommendation
+  2. Priority 2 recommendation
+  3. Priority 3 recommendation
+  
+  ## Supporting Data
+  - Data tables
+  - Charts and visualizations
+  - Source citations
+  
+  ## Next Steps
+  - [ ] Action item 1
+  - [ ] Action item 2
+  - [ ] Action item 3
+  
+  **Data Sources:** {MCP tools, platforms, dates, links}
+  **Validation:** {Cross-reference sources and methods}
+
+Customer_Research_Template: |
+  # Customer Research Report
+  **Date:** {YYYY-MM-DD}
+  **Segment:** {Customer Segment}
+  **Sample Size:** {Number of customers/responses}
+  
+  ## Customer Profile
+  - Demographics
+  - Behavior patterns
+  - Preferences
+  
+  ## Pain Points
+  1. Primary pain point (with evidence)
+  2. Secondary pain points
+  3. Unmet needs
+  
+  ## Decision Factors
+  - Purchase criteria
+  - Evaluation process
+  - Influence factors
+  
+  ## Recommendations
+  - Messaging implications
+  - Product/service improvements
+  - Marketing strategy adjustments
+  
+  **Data Sources:** {HubSpot, surveys, interviews, analytics}
+```
+
+---
+*Marketing Research Patterns v1 - Evidence-based research workflows for marketing*

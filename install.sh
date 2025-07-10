@@ -46,7 +46,7 @@ else
 fi
 
 # Configuration patterns
-readonly -a CUSTOMIZABLE_CONFIGS=("CLAUDE.md" "RULES.md" "PERSONAS.md" "MCP.md")
+readonly -a CUSTOMIZABLE_CONFIGS=("CLAUDE.md")
 
 # Default settings
 INSTALL_DIR="$HOME/.claude"
@@ -149,9 +149,6 @@ EXCEPTION_PATTERNS=(
     "backup.*"
     ".git*"
     "CLAUDE.md"  # User might customize main config
-    "RULES.md"   # User might customize rules
-    "PERSONAS.md" # User might customize personas
-    "MCP.md"     # User might customize MCP config
 )
 
 # User data files that should NEVER be deleted or overwritten

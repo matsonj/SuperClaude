@@ -1,0 +1,201 @@
+---
+# Marketing Documentation Patterns
+# Unified marketing docs standards, directory structure, format requirements
+
+## Legend
+@include universal-constants.yml#Universal_Legend
+
+Directory_Standards:
+  Documentation_Structure:
+    Marketing_Internal: ".marketingdocs/"
+    Campaign_Documentation: "campaigns/"
+
+    Marketing_Subdirectories:
+      Reports: ".marketingdocs/reports/"
+      Analytics: ".marketingdocs/analytics/"
+      Campaigns: ".marketingdocs/campaigns/"
+      Brand_Audits: ".marketingdocs/brand/"
+      Performance: ".marketingdocs/performance/"
+      Audit: ".marketingdocs/audit/"
+      Incidents: ".marketingdocs/incidents/"
+      Tasks: ".marketingdocs/tasks/"
+      Task_States:
+        - ".marketingdocs/tasks/pending/"
+        - ".marketingdocs/tasks/in-progress/"
+        - ".marketingdocs/tasks/completed/"
+        - ".marketingdocs/tasks/cancelled/"
+
+    Campaign_Subdirectories:
+      Strategy: "campaigns/strategy/"
+      Creative: "campaigns/creative/"
+      Performance: "campaigns/performance/"
+      Brand: "campaigns/brand/"
+      Content: "campaigns/content/"
+      Analytics: "campaigns/analytics/"
+
+File_Naming_Conventions:
+  Timestamps: "YYYY-MM-DD format for all files"
+  Campaign_Reports: "campaign-{name}-{YYYY-MM-DD}.md"
+  Analytics_Reports: "analytics-{metric}-{YYYY-MM-DD}.md"
+  Brand_Audits: "brand-audit-{YYYY-MM-DD}.md"
+  Performance_Reports: "performance-{channel}-{YYYY-MM-DD}.md"
+
+## Content Standards
+
+```yaml
+Marketing_Document_Types:
+  Campaign_Reports:
+    Required_Sections: ["Objective", "Strategy", "Execution", "Results", "Insights"]
+    Format: "Markdown with data tables"
+    Analytics_Required: "Performance metrics with sources"
+    
+  Brand_Audits:
+    Required_Sections: ["Current State", "Findings", "Recommendations", "Action Items"]
+    Format: "Structured markdown with compliance checklist"
+    Evidence_Required: "Screenshots and examples"
+    
+  Performance_Reports:
+    Required_Sections: ["Metrics Summary", "Analysis", "Trends", "Recommendations"]
+    Format: "Data-heavy with visualizations"
+    Sources_Required: "All data sources documented"
+    
+  Content_Guidelines:
+    Required_Sections: ["Brand Voice", "Tone", "Style", "Examples", "Approval Process"]
+    Format: "Reference guide with examples"
+    Updates_Required: "Version control with change log"
+```
+
+## Quality Standards
+
+```yaml
+Documentation_Quality:
+  Evidence_Based:
+    Data_Sources: "All metrics must cite source"
+    Screenshots: "Visual evidence for claims"
+    Links: "Active links to analytics dashboards"
+    
+  Brand_Compliance:
+    Voice_Check: "All content reviewed for brand voice"
+    Style_Guide: "Adherence to style guidelines"
+    Legal_Review: "Compliance review for claims"
+    
+  Performance_Tracking:
+    Metrics_Validation: "Performance data verified"
+    Source_Documentation: "Analytics platform citations"
+    Date_Ranges: "Clear time periods for all data"
+```
+
+## Template Structure
+
+```yaml
+Campaign_Report_Template: |
+  # Campaign Report: {Campaign Name}
+  **Date:** {YYYY-MM-DD}
+  **Campaign Period:** {Start Date} - {End Date}
+  **Persona:** {Primary Marketing Persona}
+  
+  ## Objective
+  - Primary goal
+  - Success metrics
+  - Target audience
+  
+  ## Strategy
+  - Approach
+  - Channels
+  - Messaging
+  
+  ## Execution
+  - Timeline
+  - Assets created
+  - Launch process
+  
+  ## Results
+  | Metric | Target | Actual | Variance |
+  |--------|---------|---------|----------|
+  | CTR | {target}% | {actual}% | {variance}% |
+  | Conversions | {target} | {actual} | {variance} |
+  | Cost per Lead | ${target} | ${actual} | {variance}% |
+  
+  ## Insights
+  - What worked
+  - What didn't work
+  - Lessons learned
+  
+  ## Next Steps
+  - [ ] Action item 1
+  - [ ] Action item 2
+  - [ ] Action item 3
+  
+  **Data Sources:** {Analytics platform, dates, links}
+
+Brand_Audit_Template: |
+  # Brand Audit Report
+  **Date:** {YYYY-MM-DD}
+  **Scope:** {What was audited}
+  **Auditor:** {Marketing persona}
+  
+  ## Current State
+  - Brand voice consistency
+  - Visual identity compliance
+  - Message alignment
+  
+  ## Findings
+  ### ✅ Compliant Areas
+  - List compliant elements
+  
+  ### ⚠️ Areas for Improvement
+  - List inconsistencies with severity
+  
+  ### 🚨 Critical Issues
+  - Brand violations requiring immediate attention
+  
+  ## Recommendations
+  1. Priority 1 (Critical)
+  2. Priority 2 (High)
+  3. Priority 3 (Medium)
+  
+  ## Action Items
+  - [ ] Critical fix 1 (Due: date)
+  - [ ] Critical fix 2 (Due: date)
+  - [ ] Improvement 1 (Due: date)
+  
+  **Evidence:** {Screenshots, examples, links}
+```
+
+## Automation Standards
+
+```yaml
+Automated_Documentation:
+  Performance_Reports:
+    Frequency: "Weekly automated generation"
+    Data_Sources: "MotherDuck, Google Analytics, HubSpot"
+    Alert_Thresholds: "Performance variance >20%"
+    
+  Brand_Monitoring:
+    Frequency: "Daily automated checks"
+    Scope: "All published content"
+    Alert_Conditions: "Brand guideline violations"
+    
+  Campaign_Tracking:
+    Frequency: "Real-time updates"
+    Metrics: "All KPIs with source attribution"
+    Reporting: "Daily summaries, weekly deep-dives"
+```
+
+## Integration Requirements
+
+```yaml
+MCP_Integration:
+  MotherDuck: "Analytics data extraction and validation"
+  HubSpot: "Customer data and campaign performance"
+  Google_Analytics: "Web performance and user behavior"
+  
+Documentation_Workflow:
+  Creation: "Template-based with persona guidance"
+  Review: "Editor persona quality assurance"
+  Approval: "Brand strategist final review"
+  Distribution: "Automated stakeholder notifications"
+```
+
+---
+*Marketing Documentation Patterns v1 - Structured documentation for marketing operations*
