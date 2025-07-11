@@ -1,9 +1,9 @@
 # SuperClaude – Technical Writing Framework for Claude Code
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/NomenAK/SuperClaude)
-[![GitHub issues](https://img.shields.io/github/issues/NomenAK/SuperClaude)](https://github.com/NomenAK/SuperClaude/issues)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/NomenAK/SuperClaude/blob/master/CONTRIBUTING.md)
+[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/matsonj/SuperClaude)
+[![GitHub issues](https://img.shields.io/github/issues/matsonj/SuperClaude)](https://github.com/matsonj/SuperClaude/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/matsonj/SuperClaude/blob/master/CONTRIBUTING.md)
 
 **A configuration framework that enhances Claude Code with specialized technical writing capabilities, documentation standards, and clear communication methodologies.**
 
@@ -45,7 +45,7 @@ SuperClaude enhances Claude Code with:
 The installer provides various options:
 
 ```bash
-git clone https://github.com/NomenAK/SuperClaude.git
+git clone https://github.com/matsonj/SuperClaude.git
 cd SuperClaude
 
 # Basic installation
@@ -90,26 +90,26 @@ Comprehensive documentation approach:
 
 **Code Documentation**
 ```bash
-# Provide code with comprehensive comments
-# Use bold formatting for technical keywords
-# Include step-by-step explanations
-# Add context sections for practical value
+/analyze --code --architecture --persona-architect --seq    # Analyze code structure and patterns
+/document --type code --format markdown --context7         # Generate comprehensive code docs
+/validate --code --quality --motherduck                    # Validate code quality and accuracy
+/test --documentation --accessibility --pup                # Test documentation usability
 ```
 
 **Progressive Learning Structure**
 ```bash
-# Start with fundamental concepts
-# Build complexity incrementally
-# Show connections between concepts
-# Provide practical examples throughout
+/analyze --documentation --think --persona-mentor          # Analyze learning progression needs
+/build --docs --sequential --persona-mentor --context7     # Build progressive tutorial content
+/test --usability --accessibility --pup                    # Test learning experience
+/validate --documentation --clarity --seq                  # Validate educational effectiveness
 ```
 
 **Quality Standards**
 ```bash
-# Validate technical information
-# Test code examples and instructions
-# Ensure accuracy and clarity
-# Focus on user success
+/analyze --documentation --think-hard --persona-qa         # Deep quality analysis
+/validate --documentation --accessibility --context7       # Validate compliance and standards
+/test --documentation --usability --performance --pup      # Test user experience and performance
+/improve --documentation --clarity --seq --persona-qa      # Optimize for quality and clarity
 ```
 
 ### 🎛️ **MCP Integration for Technical Writing**
@@ -304,7 +304,7 @@ SuperClaude v0.0.1's technical writing architecture focuses on clarity and effic
 
 1. **Install SuperClaude**
    ```bash
-   git clone https://github.com/NomenAK/SuperClaude.git && cd SuperClaude && ./install.sh
+   git clone https://github.com/matsonj/SuperClaude.git && cd SuperClaude && ./install.sh
    ```
 
 2. **Validate Installation**
@@ -327,7 +327,7 @@ SuperClaude v0.0.1's technical writing architecture focuses on clarity and effic
 - **Installation Help**: Run `./install.sh --help`
 - **Command Details**: Check `~/.claude/commands/`
 - **Contributing**: See [CONTRIBUTING.md](CONTRIBUTING.md)
-- **Issues**: [GitHub Issues](https://github.com/NomenAK/SuperClaude/issues)
+- **Issues**: [GitHub Issues](https://github.com/matsonj/SuperClaude/issues)
 
 ## 🤝 Community
 
@@ -337,7 +337,7 @@ SuperClaude welcomes contributions:
 - **Patterns** for marketing best practices
 - **Integrations** for marketing productivity tools
 
-Join the community: [Discussions](https://github.com/NomenAK/SuperClaude/discussions)
+Join the community: [Discussions](https://github.com/matsonj/SuperClaude/discussions)
 
 ## 📈 Version 0.0.1 Technical Writing Changes
 
@@ -363,5 +363,3 @@ SuperClaude provides a structured approach to using Claude Code with specialized
 ---
 
 *SuperClaude v0.0.1 – Technical writing framework for Claude Code*
-
-[⭐ Star on GitHub](https://github.com/NomenAK/SuperClaude) | [💬 Discussions](https://github.com/NomenAK/SuperClaude/discussions) | [🐛 Report Issues](https://github.com/NomenAK/SuperClaude/issues)
