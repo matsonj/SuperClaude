@@ -1,43 +1,43 @@
-# SuperClaude – Marketing Framework for Claude Code
+# SuperClaude – Technical Writing Framework for Claude Code
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/NomenAK/SuperClaude)
 [![GitHub issues](https://img.shields.io/github/issues/NomenAK/SuperClaude)](https://github.com/NomenAK/SuperClaude/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/NomenAK/SuperClaude/blob/master/CONTRIBUTING.md)
 
-**A configuration framework that enhances Claude Code with specialized marketing personas, campaign workflows, and data-driven methodologies.**
+**A configuration framework that enhances Claude Code with specialized technical writing capabilities, documentation standards, and clear communication methodologies.**
 
-## 🚀 Version 0.0.1 - Marketing Edition
+## 🚀 Version 0.0.1 - Technical Writing Edition
 
-SuperClaude v2 Marketing Edition introduces specialized marketing capabilities:
+SuperClaude v0.0.1 Technical Writing Edition introduces specialized documentation capabilities:
 
-- **⚡ Streamlined Architecture**: @include reference system for configuration management
-- **🎭 Marketing Personas**: 7 specialized personas integrated into the flag system (`--persona-product-marketer`, `--persona-growth-marketer`, etc.)
-- **📊 MCP Integration**: MotherDuck, HubSpot, Google Analytics, and Puppeteer for data-driven marketing
-- **🔧 Modular Design**: Template system for adding new marketing workflows
-- **🎯 Unified Experience**: Consistent flag behavior across all marketing commands
+- **⚡ Streamlined Architecture**: Clean configuration focused on technical writing excellence
+- **📝 Technical Writing Standards**: Code documentation with comprehensive comments, keyword breakdowns, and step-by-step explanations
+- **📊 MCP Integration**: MotherDuck, Puppeteer, Sequential, and Context7 for data-driven documentation
+- **🔧 Progressive Learning**: Build complexity incrementally with clear connections between concepts
+- **🎯 Audience-First Approach**: Documentation that enables user success through clarity and usability
 
 See [ROADMAP.md](ROADMAP.md) for future development ideas and contribution opportunities.
 
 ## 🎯 Background
 
 Claude Code provides powerful capabilities but can benefit from:
-- **Specialized expertise** for different marketing domains
-- **Token efficiency** for complex campaigns  
-- **Evidence-based approaches** to marketing
-- **Context preservation** during campaign analysis sessions
-- **Data-driven decision making** for marketing optimization
+- **Specialized expertise** for technical documentation and clear communication
+- **Token efficiency** for complex documentation projects  
+- **Evidence-based approaches** to technical writing
+- **Context preservation** during documentation sessions
+- **Data-driven decision making** for documentation optimization
 
-## ✨ SuperClaude Marketing Features
+## ✨ SuperClaude Technical Writing Features
 
 SuperClaude enhances Claude Code with:
-- **14 Marketing Commands** covering the complete marketing lifecycle
-- **7 Marketing Personas** for domain-specific approaches
-- **Token Optimization** with compression options
-- **Evidence-Based Methodology** requiring data validation
-- **MCP Integration** with MotherDuck, HubSpot, Google Analytics, Puppeteer
-- **Campaign Checkpoint Support** for safe experimentation
-- **Brand Compliance** enforcement throughout all operations
+- **Technical Documentation Excellence** with comprehensive code explanations
+- **Progressive Learning Structure** for building complexity incrementally
+- **Token Optimization** with clear, concise communication
+- **Evidence-Based Methodology** requiring data validation for technical claims
+- **MCP Integration** with MotherDuck, Puppeteer, Sequential, and Context7
+- **Quality Standards** for accuracy, clarity, and accessibility
+- **Audience-First Approach** ensuring documentation serves user success
 
 ## 🚀 Installation
 
@@ -71,104 +71,106 @@ Zero dependencies. Installs to `~/.claude/` by default.
 
 **Note:** After installation, all configuration files are located in `~/.claude/` (your home directory), not in the project directory.
 
-## 💡 Core Marketing Capabilities
+## 💡 Core Technical Writing Capabilities
 
-### 🧠 **Marketing Personas (As Flags!)**
-Switch between different marketing approaches with persona flags:
+### 🧠 **Technical Documentation Excellence**
+Structured approach to code explanations and technical content:
 
 ```bash
-/analyze --campaign --persona-growth-marketer     # Growth-focused analysis
-/build --content --persona-content-creator       # Creative content development  
-/test --ab-test --persona-growth-marketer        # A/B testing optimization
-/validate --sql --persona-sql-auditor           # Data validation approach
+# Code documentation with comprehensive comments
+# Keyword breakdown with bold formatting for technical terms
+# Step-by-step explanations with numbered lists
+# Context sections explaining practical value
 ```
 
-**v0.0.1 Update**: All 7 marketing personas are now universal flags, available on every command for consistent access to specialized approaches.
+**v0.0.1 Update**: Focus on technical writing standards with progressive learning structure and audience-first approach.
 
-### ⚡ **14 Marketing Commands**
-Complete marketing lifecycle coverage:
+### ⚡ **Technical Writing Workflow**
+Comprehensive documentation approach:
 
-**Campaign & Strategy Commands**
+**Code Documentation**
 ```bash
-/build --campaign --motherduck --magic    # Data-driven campaign development
-/analyze --competitive --seq              # Strategic competitive analysis
-/test --ab-test --pup --coverage         # A/B testing with validation
+# Provide code with comprehensive comments
+# Use bold formatting for technical keywords
+# Include step-by-step explanations
+# Add context sections for practical value
 ```
 
-**Content & Brand Commands**
+**Progressive Learning Structure**
 ```bash
-/build --content --magic --hubspot       # Personalized content creation
-/review --brand --consistency            # Brand compliance review
-/document --user-guide --interactive     # User documentation
+# Start with fundamental concepts
+# Build complexity incrementally
+# Show connections between concepts
+# Provide practical examples throughout
 ```
 
-**Analytics & Optimization Commands**
+**Quality Standards**
 ```bash
-/analyze --funnel --motherduck           # Conversion funnel analysis
-/validate --sql --performance           # Data quality validation
-/improve --conversion --iterate          # Performance optimization
+# Validate technical information
+# Test code examples and instructions
+# Ensure accuracy and clarity
+# Focus on user success
 ```
 
-### 🎛️ **MCP Integration for Marketing**
-- **MotherDuck**: DuckDB cloud analytics for data analysis and SQL validation
-- **HubSpot**: CRM integration for customer insights and campaign attribution
-- **Google Analytics**: Web analytics for performance tracking and user behavior
-- **Puppeteer**: Browser automation for A/B testing and landing page optimization
+### 🎛️ **MCP Integration for Technical Writing**
+- **MotherDuck**: DuckDB cloud analytics for data analysis and SQL validation in technical documentation
+- **Puppeteer**: Browser automation for testing user experience and validating documentation usability
+- **Sequential**: Multi-step analysis and strategic thinking for breaking down complex technical concepts
+- **Context7**: Documentation standards, style guide compliance, and consistency across technical content
 
-**⚠️ Important:** SuperClaude does not include MCP servers. You need to install them separately in Claude Code's MCP settings to use MCP-related flags (--motherduck, --hubspot, --google-analytics, --pup).
+**⚠️ Important:** SuperClaude does not include MCP servers. You need to install them separately in Claude Code's MCP settings to use MCP-related functionality.
 
 ### 📊 **Token Efficiency**
-SuperClaude's @include template system helps manage token usage:
-- **UltraCompressed mode** option for token reduction
-- **Template references** for configuration management
-- **Caching mechanisms** to avoid redundancy
-- **Context-aware compression** options
+SuperClaude's clean configuration helps manage token usage:
+- **Concise communication** while maintaining clarity
+- **Structured documentation** for efficient information transfer
+- **Progressive complexity** to avoid overwhelming users
+- **Context-aware explanations** focused on user needs
 
-## 🎮 Example Marketing Workflows
+## 🎮 Example Technical Writing Workflows
 
-### Product Launch Campaign
+### Code Documentation Project
 ```bash
-/analyze --market --competitive --persona-product-marketer    # Market research
-/build --strategy --positioning --seq                        # Strategic planning
-/build --campaign --multi-channel --magic --hubspot         # Campaign development
-/test --landing-page --conversion --pup                     # Performance testing
+/analyze --code --motherduck --persona-architect          # Analyze codebase structure
+/document --type code --format markdown --seq             # Generate comprehensive code docs
+/validate --documentation --accessibility --context7      # Validate documentation quality
+/test --documentation --usability --pup                   # Test user experience
 ```
 
-### Brand Consistency Audit
+### Technical User Guide Creation
 ```bash
-/analyze --brand --compliance --persona-brand-strategist     # Brand analysis
-/review --content --brand --consistency                     # Content review
-/validate --guidelines --strict                             # Compliance validation
-/improve --brand --alignment --iterate                      # Brand optimization
+/analyze --documentation --think --persona-mentor         # Analyze existing docs and user needs
+/build --docs --sequential --persona-mentor              # Build progressive learning guides
+/test --accessibility --usability --pup                  # Test guide usability
+/validate --documentation --quality --context7           # Validate clarity and accuracy
 ```
 
-### Growth Optimization Campaign
+### API Documentation Development
 ```bash
-/analyze --funnel --conversion --motherduck                 # Funnel analysis
-/test --ab-test --statistical --pup                        # A/B testing
-/improve --conversion --data-driven --persona-growth-marketer # Optimization
-/validate --performance --roi --motherduck                 # Results validation
+/analyze --api --architecture --seq --persona-backend     # Analyze API structure and patterns
+/document --type api --format openapi --motherduck       # Generate API docs with data validation
+/test --api --integration --pup                          # Test API examples and integration
+/validate --api --security --performance                 # Validate API security and performance
 ```
 
-### Content Marketing Strategy
+### Documentation Quality Audit
 ```bash
-/analyze --audience --segmentation --hubspot               # Audience research
-/build --content-calendar --seo --persona-content-creator # Content planning
-/test --content --engagement --google-analytics           # Performance testing
-/document --style-guide --brand --persona-editor         # Brand guidelines
+/analyze --documentation --think-hard --persona-qa       # Deep documentation analysis
+/validate --documentation --accessibility --context7     # Check compliance and quality
+/test --documentation --usability --pup                  # Test user experience
+/improve --documentation --clarity --seq                 # Optimize for clarity and structure
 ```
 
-## 🎭 Available Marketing Personas
+## 🎭 Technical Writing Approach
 
-| Persona | Focus Area | Tools | Use Cases |
-|---------|-----------|-------|-----------|
-| **product-marketer** | Market positioning | MotherDuck, HubSpot, Sequential | Go-to-market strategy |
-| **growth-marketer** | Conversion optimization | MotherDuck, Google Analytics, Puppeteer | A/B testing, growth experiments |
-| **content-creator** | Creative content | Magic, MotherDuck, Google Analytics | Multi-channel content |
-| **technical-writer** | Documentation | Sequential, Context7, Puppeteer | User guides, API docs |
-| **editor** | Content quality | Sequential, Context7 | Brand compliance, style |
-| **brand-strategist** | Brand strategy | Sequential, Context7, HubSpot | Brand positioning, narrative |
-| **sql-auditor** | Data validation | MotherDuck, Sequential | SQL validation, analytics |
+SuperClaude focuses on a unified technical writing methodology that combines:
+
+| Capability | Focus Area | Tools | Use Cases |
+|-----------|-----------|-------|-----------|
+| **Code Documentation** | Comprehensive explanations | Sequential, Context7 | Code comments, API docs |
+| **Progressive Learning** | Incremental complexity | Sequential, MotherDuck | User guides, tutorials |
+| **Quality Assurance** | Accuracy and clarity | Context7, Puppeteer | Documentation testing |
+| **Data Validation** | Technical accuracy | MotherDuck, Sequential | SQL validation, analytics |
 
 ## 🛠️ Configuration Options
 
@@ -241,62 +243,62 @@ SuperClaude enforces:
 - `/cleanup` - Campaign and asset maintenance
 - `/git` - Version control for marketing assets
 
-## 🔧 Technical Architecture v2
+## 🔧 Technical Architecture v0.0.1
 
-SuperClaude v2's marketing architecture enables extensibility:
+SuperClaude v0.0.1's technical writing architecture focuses on clarity and efficiency:
 
-**🏗️ Modular Configuration**
-- **CLAUDE.md** – Core marketing configuration with @include references
-- **.claude/shared/** – Centralized marketing YAML templates
-- **commands/shared/** – Reusable marketing command patterns
-- **@include System** – Template engine for configuration
+**🏗️ Clean Configuration**
+- **CLAUDE.md** – Core technical writing configuration
+- **Documentation Standards** – Structured approach to code explanations
+- **Progressive Learning** – Incremental complexity building
+- **Quality Templates** – Consistent formatting and structure
 
-**🎯 Unified Marketing Command System**
-- **14 Commands** – Complete marketing lifecycle coverage
-- **Flag Inheritance** – Universal flags on all commands
-- **Persona Integration** – 7 marketing personas as flags
-- **Template Validation** – Reference integrity checking
+**🎯 Unified Technical Writing System**
+- **Code Documentation** – Comprehensive explanations with comments
+- **Keyword Framework** – Bold formatting for technical terms
+- **Step-by-Step Process** – Numbered explanations for clarity
+- **Context Integration** – Practical value explanations
 
 **📦 Architecture Benefits**
-- **Single Source of Truth** – Centralized marketing updates
-- **Easy Extension** – Add new marketing commands/flags
-- **Consistent Behavior** – Unified flag handling
-- **Reduced Duplication** – Template-based configuration
+- **Clarity Focus** – Clear, accessible communication
+- **User Success** – Documentation that enables achievement
+- **Token Efficiency** – Concise yet comprehensive explanations
+- **Quality Assurance** – Validation and testing standards
 
 **✅ Quality Features**
-- **Evidence-Based Approach** – Data validation required
-- **MCP Integration** – Marketing tool orchestration
-- **Error Recovery** – Graceful failure handling
-- **Structured Output** – Organized campaign documentation
+- **Evidence-Based Approach** – Data validation for technical claims
+- **MCP Integration** – Technical writing tool orchestration
+- **Progressive Complexity** – Incremental learning structure
+- **Accessibility Focus** – Diverse audience consideration
 
 ## 📊 Comparison
 
-| Aspect | Standard Claude Code | SuperClaude Marketing |
+| Aspect | Standard Claude Code | SuperClaude Technical Writing |
 |--------|---------------------|----------------------|
-| **Expertise** | General responses | 7 specialized marketing personas |
-| **Commands** | Manual instructions | 14 marketing workflow commands |
-| **Context** | Session-based | Campaign checkpoint support |
-| **Tokens** | Standard usage | Compression options |
-| **Approach** | General purpose | Evidence-based marketing |
-| **Documentation** | As needed | Systematic campaign documentation |
-| **Quality** | Variable | Brand compliance validation |
-| **Integration** | Basic tools | Marketing MCP orchestration |
+| **Expertise** | General responses | Specialized technical writing approach |
+| **Documentation** | Manual instructions | Structured code explanations |
+| **Context** | Session-based | Progressive learning support |
+| **Tokens** | Standard usage | Efficient, clear communication |
+| **Approach** | General purpose | Evidence-based technical writing |
+| **Quality** | Variable | Systematic accuracy and clarity |
+| **Structure** | Ad-hoc | Keyword breakdown and step-by-step |
+| **Integration** | Basic tools | Technical writing MCP orchestration |
 
 ## 🎯 Suitability
 
 **Good fit for:**
-- ✅ Marketing teams wanting consistent AI assistance
-- ✅ Campaigns needing specialized approaches
-- ✅ Evidence-based marketing practices
-- ✅ Token-conscious workflows
-- ✅ Data-driven marketing teams
-- ✅ Brand compliance requirements
+- ✅ Development teams needing consistent technical documentation
+- ✅ Projects requiring clear code explanations
+- ✅ Evidence-based technical writing practices
+- ✅ Token-conscious documentation workflows
+- ✅ Data-driven documentation validation
+- ✅ Quality assurance requirements
 
 **May not suit:**
-- ❌ Purely manual marketing workflows
+- ❌ Purely manual documentation workflows
 - ❌ Minimal configuration preferences
-- ❌ Ad-hoc marketing styles
-- ❌ Single-channel focus
+- ❌ Ad-hoc writing styles
+- ❌ Single-format documentation focus
 
 ## 🚦 Getting Started
 
@@ -337,29 +339,29 @@ SuperClaude welcomes contributions:
 
 Join the community: [Discussions](https://github.com/NomenAK/SuperClaude/discussions)
 
-## 📈 Version 0.0.1 Marketing Changes
+## 📈 Version 0.0.1 Technical Writing Changes
 
-**🎯 Marketing Architecture:**
-- **Marketing Configuration**: Complete marketing-focused configuration system
-- **Token Efficiency**: Compression options maintained
-- **Command System**: 18 marketing-specific commands
-- **Persona System**: 7 marketing personas as flags
-- **MCP Integration**: MotherDuck, HubSpot, Google Analytics, Puppeteer
-- **Brand Compliance**: Zero-tolerance brand violation detection
+**🎯 Technical Writing Architecture:**
+- **Technical Writing Configuration**: Complete technical documentation-focused configuration system
+- **Token Efficiency**: Clear, concise communication maintained
+- **Documentation Standards**: Structured code explanations with comprehensive comments
+- **Progressive Learning**: Incremental complexity building with clear connections
+- **MCP Integration**: MotherDuck, Puppeteer, Sequential, Context7
+- **Quality Assurance**: Systematic accuracy and clarity validation
 
-**📊 Marketing Framework Details:**
-- **Commands**: 14 specialized marketing commands
-- **Personas**: 7 marketing cognitive approaches
-- **MCP Servers**: 4 marketing tool integrations
-- **Methodology**: Evidence-based marketing approach
-- **Usage**: By marketing teams and agencies
+**📊 Technical Writing Framework Details:**
+- **Methodology**: Evidence-based technical writing approach
+- **Structure**: Keyword breakdown with bold formatting
+- **Process**: Step-by-step explanations for clarity
+- **Context**: Practical value explanations for user success
+- **Usage**: By development teams and technical writers
 
-## 🎉 Enhance Your Marketing
+## 🎉 Enhance Your Technical Writing
 
-SuperClaude provides a structured approach to using Claude Code with specialized marketing commands, personas, and campaign patterns.
+SuperClaude provides a structured approach to using Claude Code with specialized technical writing standards, clear communication patterns, and documentation excellence.
 
 ---
 
-*SuperClaude v0.0.1 – Marketing framework for Claude Code*
+*SuperClaude v0.0.1 – Technical writing framework for Claude Code*
 
 [⭐ Star on GitHub](https://github.com/NomenAK/SuperClaude) | [💬 Discussions](https://github.com/NomenAK/SuperClaude/discussions) | [🐛 Report Issues](https://github.com/NomenAK/SuperClaude/issues)
