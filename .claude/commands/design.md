@@ -1,4 +1,4 @@
-**Purpose**: System architecture and API design
+**Purpose**: Technical architecture and system design
 
 ---
 
@@ -9,45 +9,168 @@ Execute: immediate. --plan→show plan first
 Legend: Generated based on symbols used in command
 Purpose: "[Action][Subject] in $ARGUMENTS"
 
-Design system architecture & APIs for $ARGUMENTS.
+Design technical architecture, APIs, and system components for $ARGUMENTS.
 
 @include shared/flag-inheritance.yml#Universal_Always
 
 Examples:
-- `/design --api --think` - REST API design w/ patterns
-- `/design --ddd --think-hard` - Deep domain modeling
-- `/design --api --ddd --ultrathink` - Complete system architecture
+- `/design --api --sequential` - REST API design with strategic analysis
+- `/design --architecture --think-hard` - Deep system architecture design
+- `/design --database --motherduck` - Database schema design with analysis
+- `/design --documentation --context7` - Documentation architecture with standards
 
 Design modes:
 
-**--api:** Design REST or GraphQL APIs
-- w/ --openapi: Generate OpenAPI 3.0 spec | w/ --graphql: Create GraphQL schema & resolvers
-- Include auth, rate limiting & error handling | Design→scalability & maintainability
+**--api:** Design REST, GraphQL, or RPC APIs
+- OpenAPI/Swagger specification generation
+- Authentication and authorization patterns
+- Rate limiting and error handling strategies
+- API versioning and backward compatibility
+- Performance optimization and caching
 
-**--ddd:** Apply DDD principles
-- w/ --bounded-context: Define context boundaries & mappings
-- Design entities, value objects & aggregates | Create domain services & events | Impl repository patterns
+**--architecture:** System architecture and design patterns
+- Microservices vs monolithic architecture
+- Component interaction and communication patterns
+- Data flow and processing pipelines
+- Scalability and performance considerations
+- Security and compliance requirements
 
-**--prd:** Create PRD 
-- w/ --template: Use template (feature/api/integration/migration)
-- Include user stories w/ acceptance criteria | Define success metrics & timelines | Document tech requirements
+**--database:** Database schema and data modeling
+- Relational database design and normalization
+- NoSQL data modeling and document structures
+- Index optimization and query performance
+- Data migration and versioning strategies
+- Backup and recovery planning
 
-## Design Patterns
+**--documentation:** Documentation architecture and organization
+- Information architecture and content structure
+- User journey and navigation design
+- Content templates and style guides
+- Search and discovery optimization
+- Accessibility and inclusive design
 
-@include shared/architecture-patterns.yml#API_Design_Patterns
+**--security:** Security architecture and protocols
+- Authentication and authorization systems
+- Data encryption and protection strategies
+- Network security and communication protocols
+- Vulnerability assessment and threat modeling
+- Compliance and regulatory requirements
 
-@include shared/architecture-patterns.yml#DDD_Patterns
+**--performance:** Performance optimization and monitoring
+- System bottleneck identification and resolution
+- Caching strategies and optimization
+- Load balancing and scalability planning
+- Monitoring and observability implementation
+- Performance testing and benchmarking
 
-@include shared/architecture-patterns.yml#PRD_Templates
+## MCP Integration Patterns
 
-## Integration & Best Practices
+**Sequential Integration:**
+- Complex architectural analysis and planning
+- Multi-step design process optimization
+- Strategic technical decision making
+- System design pattern evaluation
 
-Combined modes: API+DDD: Design domain-driven APIs | API+PRD: Create API product requirements | DDD+PRD: Document domain-driven architecture | All three: Complete system design
+**MotherDuck Integration:**
+- Database schema analysis and optimization
+- Performance metrics and query optimization
+- Data modeling and relationship analysis
+- System performance benchmarking
 
-Best practices: Start w/ user needs & business goals | Design→change & evolution | Consider non-functional early | Document decisions & rationale | Include examples & diagrams | Plan→testing & monitoring
+**Context7 Integration:**
+- Documentation architecture and standards
+- Technical writing best practices
+- Content organization and structure
+- Knowledge management systems
 
-@include shared/research-patterns.yml#Mandatory_Research_Flows
+**Puppeteer Integration:**
+- User interface design validation
+- Documentation usability testing
+- Performance testing and optimization
+- Accessibility compliance verification
 
-@include shared/docs-patterns.yml#Standard_Notifications
+## Technical Writer Persona Activation
 
-@include shared/universal-constants.yml#Standard_Messages_Templates
+Auto-activates technical writer persona with focus on:
+- Clear and comprehensive design documentation
+- Technical accuracy and implementation details
+- User-focused design explanations
+- Accessibility and inclusive design principles
+
+## Design Patterns and Best Practices
+
+**API Design Patterns:**
+- RESTful resource design and HTTP methods
+- GraphQL schema design and resolver patterns
+- Authentication and authorization patterns (OAuth, JWT)
+- Rate limiting and throttling strategies
+- Error handling and status code conventions
+- API versioning and deprecation strategies
+
+**Architecture Patterns:**
+- Microservices architecture and service boundaries
+- Event-driven architecture and message patterns
+- CQRS and event sourcing patterns
+- Hexagonal architecture and dependency inversion
+- Circuit breaker and retry patterns
+- Saga patterns for distributed transactions
+
+**Database Design Patterns:**
+- Domain-driven design and bounded contexts
+- Entity-relationship modeling and normalization
+- Command Query Responsibility Segregation (CQRS)
+- Repository and Unit of Work patterns
+- Data access layer abstraction patterns
+- Database migration and versioning strategies
+
+**Documentation Patterns:**
+- Information architecture and content hierarchy
+- Progressive disclosure and layered documentation
+- Code example integration and validation
+- Interactive documentation and API explorers
+- Multi-format publishing and content reuse
+- Search optimization and content discovery
+
+## Quality Assurance
+
+All designs include:
+- **Technical Accuracy**: Implementation feasibility and best practices
+- **Scalability Considerations**: Performance and growth planning
+- **Security Review**: Threat modeling and vulnerability assessment
+- **Accessibility Compliance**: Inclusive design and WCAG guidelines
+- **Documentation Quality**: Clear explanations and implementation guides
+- **Testing Strategy**: Validation and quality assurance planning
+
+## Design Outputs
+
+**API Specifications:**
+- OpenAPI/Swagger documentation
+- GraphQL schema definitions
+- Authentication and authorization flows
+- Error handling and status codes
+- Rate limiting and usage policies
+- SDK and client library specifications
+
+**Architecture Documentation:**
+- System architecture diagrams
+- Component interaction flows
+- Data flow and processing pipelines
+- Deployment and infrastructure requirements
+- Security and compliance protocols
+- Performance and scalability specifications
+
+**Database Designs:**
+- Entity-relationship diagrams
+- Schema definitions and constraints
+- Index optimization strategies
+- Migration scripts and procedures
+- Backup and recovery plans
+- Performance monitoring and optimization
+
+**Documentation Architecture:**
+- Information architecture and site maps
+- Content templates and style guides
+- User journey and navigation flows
+- Search and discovery optimization
+- Accessibility and inclusive design
+- Content management and publishing workflows

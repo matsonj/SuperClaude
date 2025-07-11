@@ -1,4 +1,4 @@
-**Purpose**: Data quality and SQL validation for marketing analytics
+**Purpose**: Technical validation for code, data, and system quality
 
 ---
 
@@ -9,24 +9,29 @@ Execute: immediate. --plan→show plan first
 Legend: Generated based on symbols used in command
 Purpose: "[Action][Subject] in $ARGUMENTS"
 
-Validate SQL queries, data quality, and analytics setup specified in $ARGUMENTS.
+Validate code quality, data integrity, and system performance specified in $ARGUMENTS.
 
 @include shared/flag-inheritance.yml#Universal_Always
 
 Examples:
-- `/validate --sql --performance --persona-sql-auditor` - SQL validation and optimization
-- `/validate --analytics --tracking --google-analytics` - Analytics setup validation
-- `/validate --data --quality --motherduck` - Data quality validation
+- `/validate --sql --performance --motherduck` - SQL validation and optimization
+- `/validate --code --quality --sequential` - Code quality validation
+- `/validate --documentation --accessibility --context7` - Documentation validation
+- `/validate --api --security --puppeteer` - API security validation
 
 Validation modes:
 
 **--sql:** Extract and validate SQL queries from files | Performance optimization | Syntax checking | Data integrity validation
 
+**--code:** Code quality assessment | Syntax validation | Best practices compliance | Security vulnerability scanning
+
+**--documentation:** Documentation quality validation | Accessibility compliance | Technical accuracy | User experience assessment
+
+**--api:** API functionality validation | Security testing | Performance benchmarking | Integration testing
+
 **--data:** Data quality assessment | Accuracy verification | Completeness checking | Consistency validation
 
-**--analytics:** Analytics tracking validation | Goal setup verification | Attribution model checking | Performance measurement validation
-
-**--performance:** Query performance optimization | Execution time analysis | Resource usage assessment | Bottleneck identification
+**--performance:** System performance validation | Load testing | Resource utilization analysis | Bottleneck identification
 
 ## MCP Integration Patterns
 
@@ -36,25 +41,100 @@ Validation modes:
 - Data quality assessment and validation
 - Query result verification and accuracy checking
 
-**Google Analytics Integration:**
-- Tracking setup validation and verification
-- Goal configuration and measurement validation
-- Attribution model accuracy assessment
-- Performance metric validation and analysis
+**Sequential Integration:**
+- Complex validation process analysis
+- Multi-step quality assurance workflows
+- Strategic validation planning
+- Comprehensive system validation
 
-## Marketing Persona Activation
+**Context7 Integration:**
+- Documentation standards compliance validation
+- Technical writing quality assessment
+- Style guide adherence checking
+- Knowledge base validation
 
-Auto-activates SQL Auditor persona for data validation tasks.
+**Puppeteer Integration:**
+- User interface validation and testing
+- Documentation usability testing
+- Performance testing in real browsers
+- Accessibility compliance verification
 
-@include shared/marketing-quality-patterns.yml#Data_Quality_Validation
+## Technical Writer Persona Activation
+
+Auto-activates technical writer persona for validation tasks with focus on:
+- Documentation quality and accuracy
+- Technical content validation
+- User experience assessment
+- Accessibility compliance verification
+
+## Quality Standards
+
+**Data Quality Validation:**
+- Accuracy and completeness verification
+- Consistency checks across data sources
+- Format validation and standardization
+- Error detection and correction procedures
+
+**Documentation Quality:**
+- Technical accuracy and completeness
+- Clarity and accessibility standards
+- Style guide compliance
+- User experience optimization
+
+**Code Quality Validation:**
+- Syntax and structure verification
+- Best practices compliance
+- Security vulnerability assessment
+- Performance optimization opportunities
+
+**API Quality Validation:**
+- Functionality and behavior verification
+- Security testing and vulnerability assessment
+- Performance benchmarking and optimization
+- Integration testing and compatibility
 
 ## Output Standards
 
 Validation reports include:
 - **Validation Summary**: Pass/fail status with detailed findings
 - **Error Documentation**: Specific errors with resolution guidance
-- **Performance Metrics**: Query execution times and optimization opportunities
+- **Performance Metrics**: Execution times and optimization opportunities
 - **Recommendations**: Prioritized improvements and best practices
 - **Next Steps**: Specific implementation guidance for fixes
 
-@include shared/marketing-docs-patterns.yml#Documentation_Quality
+## Validation Types
+
+**SQL Validation:**
+- Query syntax and structure verification
+- Performance optimization analysis
+- Data integrity and consistency checks
+- Security vulnerability assessment
+- Best practices compliance verification
+
+**Code Validation:**
+- Syntax and compilation verification
+- Code quality metrics assessment
+- Security vulnerability scanning
+- Performance bottleneck identification
+- Design pattern compliance checking
+
+**Documentation Validation:**
+- Technical accuracy verification
+- Accessibility compliance testing
+- User experience assessment
+- Content completeness analysis
+- Style guide adherence checking
+
+**API Validation:**
+- Endpoint functionality testing
+- Security vulnerability assessment
+- Performance benchmarking
+- Integration compatibility testing
+- Documentation accuracy verification
+
+**System Validation:**
+- Performance and scalability testing
+- Security compliance verification
+- Integration testing and validation
+- Data flow and processing validation
+- Error handling and recovery testing

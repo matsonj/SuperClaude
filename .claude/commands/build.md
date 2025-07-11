@@ -1,4 +1,4 @@
-**Purpose**: Universal marketing campaign and content builder
+**Purpose**: Technical documentation and code project builder
 
 ---
 
@@ -9,136 +9,162 @@ Execute: immediate. --plan→show plan first
 Legend: Generated based on symbols used in command
 Purpose: "[Action][Subject] in $ARGUMENTS"
 
-Build marketing campaigns, content, or strategies based on requirements in $ARGUMENTS.
+Build technical documentation, code projects, or development environments based on requirements in $ARGUMENTS.
 
 @include shared/flag-inheritance.yml#Universal_Always
 
 Examples:
-- `/build --campaign --motherduck --magic` - Data-driven campaign with creative assets
-- `/build --content --magic --hubspot` - Personalized content with customer data
-- `/build --strategy --seq --competitive` - Strategic planning with market analysis
+- `/build --docs --motherduck --context7` - Documentation site with data validation
+- `/build --api --sequential --puppeteer` - API documentation with testing
+- `/build --project --think-hard` - Complete project setup with analysis
 
-Pre-build: Remove outdated assets (old campaigns, deprecated content) | Clean temp files & cache | Validate brand compliance | Remove test content
+Pre-build: Clean temp files & cache | Validate dependencies | Remove outdated documentation | Check code quality
 
 Build modes:
-**--campaign:** Complete marketing campaign | Strategy→tactics→creative→launch | Multi-channel execution | Performance tracking setup
-**--content:** Content creation workflow | Brand-aligned messaging | Multi-format output | Distribution optimization  
-**--strategy:** Strategic planning process | Market research→positioning→tactics | Evidence-based approach
+**--docs:** Technical documentation | API references | User guides | Code documentation | Multi-format output
+**--project:** Code project setup | Development environment | Build system | Testing framework | CI/CD pipeline  
+**--api:** API documentation | OpenAPI specs | SDK generation | Testing suites | Integration guides
 
 Templates:
-- **Product Launch:** GTM strategy|positioning|messaging|content calendar|performance tracking
-- **Brand Campaign:** Brand strategy|voice guidelines|visual identity|content framework|measurement
-- **Content Marketing:** Content strategy|editorial calendar|SEO optimization|social distribution|performance analysis
-- **Growth Campaign:** Funnel analysis|optimization strategy|A/B testing framework|conversion tracking|scaling plan
+- **API Documentation:** OpenAPI specs | SDK docs | Integration guides | Testing examples | Performance benchmarks
+- **User Guides:** Step-by-step tutorials | Getting started | Troubleshooting | FAQ | Reference materials
+- **Code Documentation:** Inline comments | Architecture docs | Development setup | Contributing guides | Deployment instructions
+- **Technical Specifications:** System requirements | Architecture diagrams | Data models | Security protocols | Performance specifications
 
-## Campaign Types
+## Documentation Types
 
-**Product Launch Campaign:**
-- Market research and competitive analysis
-- Target audience definition and persona development
-- Value proposition and messaging framework
-- Multi-channel launch strategy and timeline
-- Content creation and asset development
-- Performance tracking and optimization plan
+**API Documentation:**
+- OpenAPI/Swagger specification generation
+- SDK and client library documentation
+- Authentication and authorization guides
+- Rate limiting and error handling documentation
+- Code examples and integration tutorials
+- Performance benchmarks and optimization guides
 
-**Brand Awareness Campaign:**
-- Brand positioning and differentiation strategy
-- Brand voice and visual identity guidelines
-- Storytelling framework and content themes
-- Influencer and partnership strategies
-- Social media and content distribution plan
-- Brand tracking and sentiment monitoring
+**User Documentation:**
+- Getting started guides and tutorials
+- Step-by-step installation instructions
+- Feature documentation with examples
+- Troubleshooting guides and FAQ
+- Best practices and usage patterns
+- Migration guides and upgrade instructions
 
-**Lead Generation Campaign:**
-- Lead magnet strategy and content development
-- Landing page optimization and conversion flow
-- Email nurturing sequences and automation
-- Sales and marketing alignment processes
-- Lead scoring and qualification frameworks
-- ROI tracking and attribution modeling
+**Developer Documentation:**
+- Architecture and design documentation
+- Code contribution guidelines
+- Development environment setup
+- Testing strategies and frameworks
+- Deployment and CI/CD processes
+- Performance optimization guides
 
-**Customer Retention Campaign:**
-- Customer lifecycle mapping and segmentation
-- Personalization and targeting strategies
-- Customer success content and communications
-- Loyalty program development and optimization
-- Feedback collection and experience improvement
-- Lifetime value optimization and growth
+**Technical Specifications:**
+- System architecture diagrams
+- Database schema and data models
+- Security protocols and compliance
+- Performance requirements and benchmarks
+- Integration patterns and workflows
+- Technology stack documentation
 
-## Content Creation Workflows
+## Code Project Workflows
 
-**Blog Content:**
-- SEO keyword research and content planning
-- Editorial calendar development and management
-- Brand voice and style guide implementation
-- Content optimization for search and social
-- Performance tracking and content analytics
+**Frontend Projects:**
+- Modern framework setup (React, Vue, Angular)
+- Build system configuration (Webpack, Vite, Parcel)
+- Testing framework integration (Jest, Cypress, Playwright)
+- Code quality tools (ESLint, Prettier, TypeScript)
+- Development server and hot reload setup
 
-**Social Media Content:**
-- Platform-specific content strategies and formats
-- Visual brand identity and creative templates
-- Community management and engagement tactics
-- Influencer collaboration and partnership content
-- Social media advertising and promoted content
-- Performance analytics and optimization
+**Backend Projects:**
+- API framework setup (Express, FastAPI, Spring Boot)
+- Database integration and migration setup
+- Authentication and authorization implementation
+- Testing framework configuration (unit, integration, e2e)
+- Logging, monitoring, and observability setup
 
-**Email Marketing:**
-- Email strategy and audience segmentation
-- Template design and brand compliance
-- Automation workflows and trigger sequences
-- Personalization and dynamic content strategies
-- Performance optimization and A/B testing
+**Full-Stack Projects:**
+- Monorepo or microservices architecture
+- Shared component libraries and utilities
+- API documentation and SDK generation
+- End-to-end testing strategies
+- Deployment and infrastructure setup
 
-**Video Content:**
-- Video strategy and content planning
-- Scriptwriting and storyboard development
-- Brand guideline implementation for video
-- Distribution and promotion strategies
-- Performance tracking and optimization
+**Library/Package Projects:**
+- Package manager configuration (npm, pip, cargo)
+- Build system for library distribution
+- Documentation generation and hosting
+- Testing across multiple environments
+- Release automation and versioning
 
 ## MCP Integration Patterns
 
-**Magic Content Generation:**
-- Creative asset development with brand alignment
-- Multi-format content creation and optimization
-- Template generation for consistent brand application
-- Visual content and design element creation
+**Context7 Integration:**
+- Documentation standards and style guide compliance
+- Technical writing best practices implementation
+- Content organization and information architecture
+- Knowledge base integration and search optimization
 
-**MotherDuck Analytics:**
-- Performance data analysis for content optimization
-- Audience behavior insights for content strategy
-- ROI analysis and attribution modeling
-- Campaign performance benchmarking and forecasting
+**MotherDuck Integration:**
+- Performance data analysis for documentation
+- Code metrics and quality measurement
+- Build performance optimization
+- User analytics for documentation effectiveness
 
-**HubSpot Integration:**
-- Customer data integration for personalization
-- Lead nurturing and conversion optimization
-- Campaign attribution and pipeline analysis
-- Customer journey mapping and optimization
+**Sequential Integration:**
+- Complex project architecture planning
+- Multi-step build process optimization
+- Strategic technical decision making
+- Dependency analysis and optimization
 
-**Puppeteer Testing:**
-- Landing page performance and conversion testing
-- Email template rendering and compatibility testing
-- Social media content preview and optimization
-- Campaign asset quality assurance and validation
+**Puppeteer Integration:**
+- Documentation usability testing
+- User interface testing for documentation sites
+- Performance testing for built applications
+- Accessibility compliance verification
 
-## Marketing Persona Activation
+## Technical Writer Persona Activation
 
-Auto-activates appropriate personas based on build type:
-- Campaign builds → Growth Marketer persona
-- Content builds → Content Creator persona
-- Strategy builds → Product Marketer or Brand Strategist persona
-- Brand builds → Brand Strategist persona
-
-@include shared/marketing-quality-patterns.yml#Brand_Validation_Sequence
+Auto-activates technical writer persona with focus on:
+- Documentation clarity and user experience
+- Technical accuracy and completeness
+- Code example validation and testing
+- Accessibility and inclusive design
 
 ## Quality Assurance
 
 All builds include:
-- **Brand Compliance Check**: Adherence to brand guidelines and voice
-- **Performance Baseline**: Benchmark metrics and success criteria
-- **Content Quality Review**: Grammar, accuracy, and brand alignment
-- **Technical Validation**: Asset optimization and compatibility testing
-- **Launch Readiness**: Complete checklist and approval workflow
+- **Technical Accuracy**: Code examples tested and validated
+- **Documentation Quality**: Clear, comprehensive, and user-focused
+- **Code Quality**: Linting, formatting, and best practices compliance
+- **Performance Optimization**: Build speed and runtime performance
+- **Accessibility Compliance**: WCAG guidelines and inclusive design
+- **Security Review**: Best practices and vulnerability scanning
 
-@include shared/marketing-docs-patterns.yml#Campaign_Report_Template
+## Build Outputs
+
+**Documentation Sites:**
+- Static site generation (Docusaurus, MkDocs, GitBook)
+- Interactive API documentation (Swagger UI, Redoc)
+- Code example validation and testing
+- Search functionality and navigation
+- Responsive design and mobile optimization
+
+**Code Projects:**
+- Development environment setup
+- Build system configuration
+- Testing framework integration
+- Code quality and formatting tools
+- Documentation generation and hosting
+
+**API Documentation:**
+- OpenAPI specification generation
+- SDK and client library documentation
+- Interactive API explorer and testing
+- Authentication and integration guides
+- Performance benchmarks and optimization
+
+**Technical Specifications:**
+- Architecture diagrams and documentation
+- System requirements and dependencies
+- Security and compliance documentation
+- Performance specifications and benchmarks
+- Integration patterns and best practices

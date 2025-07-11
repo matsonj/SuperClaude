@@ -1,9 +1,9 @@
-# SuperClaude Marketing Commands Reference v0.0.1
+# SuperClaude Technical Writing Commands Reference v0.0.1
 
 ## Table of Contents
 - [Quick Start](#quick-start)
 - [Universal Flags (Available on ALL Commands)](#universal-flags-available-on-all-commands)
-- [Marketing Personas as Flags](#marketing-personas-as-flags)
+- [Technical Writer Persona](#technical-writer-persona)
 - [Complete Command Reference](#complete-command-reference)
 - [Flag Combinations & Best Practices](#flag-combinations--best-practices)
 
@@ -15,12 +15,12 @@
 
 **Example Commands**:
 ```bash
-/analyze --campaign --motherduck --persona-growth-marketer    # Campaign performance analysis
-/build --content --magic --hubspot --persona-content-creator # Content creation with CRM data
-/test --ab-test --pup --statistical                         # A/B testing with automation
-/validate --sql --performance --persona-sql-auditor         # Data validation and optimization
-/review --brand --consistency --persona-editor              # Brand compliance review
-/deploy --campaign --monitor --validate                     # Safe campaign launch
+/analyze --code --motherduck --sequential              # Code analysis with data validation
+/build --docs --context7 --puppeteer                   # Documentation build with testing
+/explain --code --step-by-step --context7              # Code explanation with standards
+/validate --sql --performance --motherduck             # SQL validation and optimization
+/test --documentation --accessibility --puppeteer      # Documentation testing
+/design --api --sequential --think-hard                # API design with deep analysis
 ```
 
 ---
@@ -32,7 +32,7 @@
 |------|-------------|-------------|
 | `--think` | Multi-dimensional analysis with expanded context | ~4K tokens |
 | `--think-hard` | Strategic-level depth analysis | ~10K tokens |
-| `--ultrathink` | Critical market analysis with maximum depth | ~32K tokens |
+| `--ultrathink` | Critical analysis with maximum depth | ~32K tokens |
 
 ### 📦 Token Optimization
 | Flag | Alias | Description |
@@ -43,22 +43,16 @@
 | Flag | Description |
 |------|-------------|
 | `--motherduck` | Enable MotherDuck for data analytics & SQL validation |
-| `--hubspot` | Enable HubSpot for CRM & customer insights |
-| `--google-analytics` | Enable Google Analytics for web metrics |
-| `--seq` | Enable Sequential thinking analysis |
-| `--magic` | Enable Magic for content generation & creative |
-| `--pup` | Enable Puppeteer for A/B testing & automation |
+| `--puppeteer` | Enable Puppeteer for testing & automation |
+| `--sequential` | Enable Sequential thinking analysis |
+| `--context7` | Enable Context7 for documentation standards |
 | `--all-mcp` | Enable all MCP servers for maximum capability |
 | `--no-mcp` | Disable all MCP servers (native tools only) |
-| `--no-motherduck` | Disable MotherDuck specifically |
-| `--no-seq` | Disable Sequential thinking specifically |
-| `--no-magic` | Disable Magic content generation specifically |
-| `--no-pup` | Disable Puppeteer specifically |
 
-### 🔍 Analysis & Brand Compliance
+### 🔍 Analysis & Quality Control
 | Flag | Description |
 |------|-------------|
-| `--brand-audit` | Enable comprehensive brand compliance checking |
+| `--technical-audit` | Enable comprehensive technical quality checking |
 
 ### 📋 Planning & Execution
 | Flag | Description |
@@ -73,378 +67,344 @@
 | Flag | Description |
 |------|-------------|
 | `--validate` | Enhanced pre-execution safety checks |
-| `--brand` | Brand compliance-focused analysis and validation |
 | `--coverage` | Generate comprehensive analysis coverage |
 | `--strict` | Zero-tolerance mode with enhanced validation |
 
-### 📊 Marketing-Specific Flags
+### 📊 Technical Writing Specific Flags
 | Flag | Description |
 |------|-------------|
-| `--ab-test` | A/B testing setup and analysis |
-| `--campaign-launch` | Full campaign launch workflow |
-| `--content-calendar` | Content calendar planning and execution |
-| `--customer-journey` | Customer journey mapping and optimization |
+| `--step-by-step` | Detailed step-by-step explanations |
+| `--keywords` | Include keyword definitions and breakdowns |
+| `--accessibility` | Focus on accessibility compliance |
+| `--progressive` | Progressive complexity building |
 
 ---
 
-## Marketing Personas as Flags
+## Technical Writer Persona
 
-All marketing personas are now integrated as flags, available on every command:
+The technical writer persona is automatically activated for all commands, providing:
 
-| Persona Flag | Expertise | Best For |
-|--------------|-----------|----------|
-| `--persona-product-marketer` | Market positioning, competitive analysis | Go-to-market strategy, positioning |
-| `--persona-growth-marketer` | A/B testing, conversion optimization | Growth experiments, funnel analysis |
-| `--persona-content-creator` | Creative content, multi-channel | Social media, creative campaigns |
-| `--persona-technical-writer` | Documentation, user guides | API docs, help content |
-| `--persona-editor` | Content quality, brand compliance | Content review, style consistency |
-| `--persona-brand-strategist` | Brand strategy, narrative | Brand positioning, voice guidelines |
-| `--persona-sql-auditor` | Data validation, SQL optimization | Analytics validation, data quality |
+| Focus Area | Capabilities |
+|------------|-------------|
+| **Documentation Excellence** | Clear, progressive explanations with keyword definitions |
+| **Code Explanation** | Code → Keywords → Steps → Context structure |
+| **User-Centered Design** | Audience-first approach with accessibility focus |
+| **Quality Assurance** | Technical accuracy and usability validation |
 
 ---
 
 ## Complete Command Reference
 
-### 🚀 Campaign & Strategy Commands (4)
+### 🔍 Analysis Commands (2)
 
-#### `/analyze` - Multi-Dimensional Marketing Analysis
-Comprehensive analysis of campaigns, audiences, competitors, and performance data.
+#### `/analyze` - Technical Analysis
+Comprehensive analysis of code, architecture, documentation, and system performance.
 
 **Command-Specific Flags:**
-- `--campaign` - Campaign performance and optimization analysis
-- `--brand` - Brand consistency and compliance analysis
-- `--audience` - Customer segmentation and behavior analysis
-- `--competitive` - Market positioning and competitive analysis
-- `--content` - Content performance and engagement analysis
-- `--funnel` - Conversion funnel analysis and optimization
+- `--code` - Code quality, structure, and security analysis
+- `--architecture` - System design patterns and relationships
+- `--documentation` - Content clarity, accuracy, and completeness
+- `--performance` - System bottlenecks and optimization
+- `--security` - Vulnerability assessment and best practices
+- `--dependencies` - Package analysis and compatibility
 
 **Examples:**
 ```bash
-/analyze --campaign --motherduck --persona-growth-marketer    # Campaign performance analysis
-/analyze --competitive --seq --persona-product-marketer      # Strategic competitive analysis
-/analyze --funnel --conversion --motherduck                  # Conversion funnel analysis
+/analyze --code --motherduck --security                # Code analysis with data validation
+/analyze --architecture --sequential --think-hard      # Deep architectural analysis
+/analyze --documentation --context7 --accessibility    # Documentation quality review
 ```
 
-#### `/build` - Marketing Campaign and Content Builder
-Build comprehensive marketing campaigns, content, and strategies.
+#### `/explain` - Code and Concept Explanation
+Clear, progressive explanations of code, technical concepts, and systems.
 
 **Command-Specific Flags:**
-- `--campaign` - Build complete marketing campaigns
-- `--content` - Create engaging marketing content
-- `--strategy` - Develop marketing strategy and positioning
+- `--code` - Code breakdown with syntax and structure
+- `--concept` - Technical concept explanation
+- `--architecture` - System architecture explanation
+- `--api` - API functionality and documentation
+- `--algorithm` - Algorithm analysis and breakdown
+- `--database` - Database schema and query explanation
 
-**Campaign Types:**
-- `--product-launch` - Product launch campaign development
-- `--brand-awareness` - Brand awareness campaign creation
-- `--lead-generation` - Lead generation campaign building
-- `--customer-retention` - Customer retention campaign development
+**Depth Levels:**
+- `--basic` - Fundamental concepts and simple examples
+- `--intermediate` - Detailed analysis with practical examples
+- `--advanced` - Comprehensive deep-dive analysis
+- `--expert` - Complete technical analysis with edge cases
 
 **Examples:**
 ```bash
-/build --campaign --motherduck --magic --hubspot            # Data-driven campaign
-/build --content --magic --persona-content-creator         # Creative content creation
-/build --strategy --positioning --seq                      # Strategic planning
+/explain --code --step-by-step --keywords              # Code explanation with structure
+/explain --concept --progressive --context7            # Technical concept breakdown
+/explain --api --documentation --motherduck            # API explanation with data
 ```
 
-#### `/design` - Brand and Campaign Strategy
-Strategic brand development and campaign architecture.
+### 🔨 Build Commands (2)
+
+#### `/build` - Technical Documentation and Projects
+Build technical documentation, code projects, and development environments.
 
 **Command-Specific Flags:**
-- `--brand` - Brand strategy and identity development
-- `--campaign` - Campaign architecture and strategy
-- `--customer-journey` - Customer journey mapping
-- `--messaging` - Messaging framework development
+- `--docs` - Technical documentation sites and references
+- `--project` - Code project setup and development environment
+- `--api` - API documentation and specifications
+
+**Documentation Types:**
+- `--api-docs` - OpenAPI specs and SDK documentation
+- `--user-guides` - Step-by-step tutorials and getting started
+- `--developer-docs` - Architecture and development documentation
+- `--technical-specs` - System requirements and specifications
 
 **Examples:**
 ```bash
-/design --brand --narrative --persona-brand-strategist     # Brand strategy development
-/design --customer-journey --touchpoints --hubspot        # Customer journey mapping
+/build --docs --context7 --puppeteer                  # Documentation with testing
+/build --api --sequential --motherduck                # API documentation with analysis
+/build --project --technical-specs --think-hard       # Complete project setup
 ```
 
-#### `/test` - A/B Testing and Optimization Framework
-Comprehensive marketing testing and optimization.
+#### `/design` - Technical Architecture and System Design
+Design technical architecture, APIs, and system components.
 
 **Command-Specific Flags:**
-- `--ab-test` - A/B testing workflow with statistical analysis
-- `--content` - Content performance testing
-- `--campaign` - Campaign performance testing
-- `--landing-page` - Landing page optimization testing
-- `--email` - Email campaign testing
-- `--conversion` - Conversion rate optimization testing
+- `--api` - REST, GraphQL, or RPC API design
+- `--architecture` - System architecture and design patterns
+- `--database` - Database schema and data modeling
+- `--documentation` - Documentation architecture and organization
+- `--security` - Security architecture and protocols
+- `--performance` - Performance optimization and monitoring
 
 **Examples:**
 ```bash
-/test --ab-test --pup --statistical --persona-growth-marketer  # A/B testing
-/test --landing-page --conversion --pup                       # Landing page testing
-/test --content --engagement --google-analytics               # Content testing
+/design --api --sequential --openapi                  # API design with analysis
+/design --architecture --think-hard --scalability     # System architecture design
+/design --database --motherduck --optimization        # Database design with analysis
 ```
 
-### 📝 Content & Brand Commands (3)
+### 🧪 Testing & Validation Commands (2)
 
-#### `/review` - Content and Brand Compliance Review
-Comprehensive content review and brand compliance analysis.
+#### `/test` - Comprehensive Testing Framework
+Create and run tests for code, documentation, and systems.
 
 **Command-Specific Flags:**
-- `--brand` - Brand compliance and consistency review
-- `--content` - Content quality and style review
-- `--guidelines` - Brand guideline adherence check
-- `--consistency` - Cross-platform consistency analysis
+- `--unit` - Unit testing and code coverage
+- `--integration` - Integration testing across components
+- `--e2e` - End-to-end testing with user scenarios
+- `--performance` - Performance testing and benchmarking
+- `--security` - Security testing and vulnerability assessment
+- `--accessibility` - Accessibility compliance testing
+- `--documentation` - Documentation accuracy and usability testing
 
 **Examples:**
 ```bash
-/review --brand --consistency --persona-brand-strategist    # Brand compliance review
-/review --content --quality --persona-editor               # Content quality review
+/test --unit --coverage --motherduck                  # Unit testing with coverage
+/test --documentation --accessibility --puppeteer     # Documentation testing
+/test --performance --load --sequential               # Performance testing
 ```
 
-#### `/document` - Marketing Documentation Creation
-Professional marketing documentation in multiple formats.
-
-**Command-Specific Flags:**
-- `--brand-guidelines` - Brand guideline documentation
-- `--content-calendar` - Content calendar documentation
-- `--campaign-playbook` - Campaign playbook creation
-- `--user-guide` - User-facing documentation
-
-**Examples:**
-```bash
-/document --brand-guidelines --visual --persona-brand-strategist  # Brand guidelines
-/document --user-guide --interactive --persona-technical-writer  # User documentation
-```
-
-#### `/improve` - Content and Campaign Optimization
-Evidence-based improvements with measurable outcomes.
-
-**Command-Specific Flags:**
-- `--content` - Content optimization and enhancement
-- `--campaign` - Campaign performance optimization
-- `--conversion` - Conversion rate optimization
-- `--brand` - Brand alignment and consistency improvements
-
-**Examples:**
-```bash
-/improve --conversion --data-driven --persona-growth-marketer   # Conversion optimization
-/improve --brand --alignment --persona-brand-strategist        # Brand optimization
-```
-
-### 📊 Analytics & Data Commands (4)
-
-#### `/validate` - Data Quality and SQL Validation
-Comprehensive data validation and SQL quality assurance.
+#### `/validate` - Technical Validation
+Validate code quality, data integrity, and system performance.
 
 **Command-Specific Flags:**
 - `--sql` - SQL query validation and optimization
-- `--data` - Data quality and accuracy validation
-- `--performance` - Query performance optimization
-- `--analytics` - Analytics setup and validation
+- `--code` - Code quality and best practices validation
+- `--documentation` - Documentation quality and accuracy
+- `--api` - API functionality and security validation
+- `--data` - Data quality and integrity validation
+- `--performance` - System performance validation
 
 **Examples:**
 ```bash
-/validate --sql --performance --persona-sql-auditor        # SQL validation
-/validate --analytics --tracking --google-analytics       # Analytics validation
+/validate --sql --performance --motherduck            # SQL validation with optimization
+/validate --documentation --accessibility --context7  # Documentation validation
+/validate --api --security --puppeteer               # API security validation
 ```
 
-#### `/scan` - Performance and Compliance Auditing
-Comprehensive auditing of marketing performance and compliance.
+### 📝 Documentation Commands (2)
+
+#### `/document` - Professional Documentation Creation
+Create comprehensive technical documentation in multiple formats.
 
 **Command-Specific Flags:**
-- `--performance` - Campaign and content performance audit
-- `--compliance` - Brand and legal compliance scanning
-- `--quality` - Content and campaign quality validation
+- `--api` - API documentation generation
+- `--user` - End-user documentation and guides
+- `--developer` - Developer documentation and guides
+- `--architecture` - System architecture documentation
+
+**Formats:**
+- `--markdown` - Markdown format (default)
+- `--html` - HTML documentation
+- `--pdf` - PDF output
+- `--interactive` - Interactive documentation
 
 **Examples:**
 ```bash
-/scan --performance --comprehensive --motherduck           # Performance audit
-/scan --compliance --brand --strict                       # Compliance audit
+/document --api --openapi --interactive               # Interactive API documentation
+/document --user --step-by-step --accessibility       # User guide with accessibility
+/document --architecture --diagrams --comprehensive   # Architecture documentation
 ```
 
-#### `/estimate` - Campaign Planning and Budgeting
-Professional estimation for marketing campaigns and projects.
+#### `/review` - Code and Documentation Review
+Comprehensive review of code, documentation, and technical content.
 
 **Command-Specific Flags:**
-- `--campaign` - Campaign budget and timeline estimation
-- `--roi` - ROI projection and analysis
-- `--resources` - Resource requirement planning
+- `--code` - Code quality and structure review
+- `--documentation` - Documentation quality and accuracy
+- `--security` - Security review and vulnerability assessment
+- `--performance` - Performance review and optimization
+- `--accessibility` - Accessibility compliance review
 
 **Examples:**
 ```bash
-/estimate --campaign --detailed --roi --motherduck         # Campaign estimation
-/estimate --resources --timeline --complexity              # Resource planning
+/review --code --security --best-practices            # Code security review
+/review --documentation --accessibility --usability   # Documentation quality review
+/review --performance --optimization --motherduck     # Performance review
 ```
 
-#### `/troubleshoot` - Marketing Analytics Debugging
-Systematic debugging of marketing analytics and campaign issues.
+### 🔧 Utility Commands (9)
+
+#### `/improve` - Code and Documentation Optimization
+Evidence-based improvements with measurable outcomes.
 
 **Command-Specific Flags:**
-- `--analytics` - Analytics tracking and data issues
-- `--campaign` - Campaign performance troubleshooting
-- `--attribution` - Marketing attribution debugging
+- `--code` - Code optimization and refactoring
+- `--documentation` - Documentation clarity and structure
+- `--performance` - Performance optimization
+- `--accessibility` - Accessibility improvements
 
-**Examples:**
-```bash
-/troubleshoot --analytics --investigate --motherduck       # Analytics debugging
-/troubleshoot --campaign --performance --seq               # Campaign troubleshooting
-```
-
-### ⚙️ Operations Commands (4)
-
-#### `/deploy` - Campaign Launch and Management
-Safe campaign deployment with monitoring capabilities.
+#### `/scan` - Security and Quality Scanning
+Comprehensive security and quality auditing.
 
 **Command-Specific Flags:**
-- `--campaign` - Campaign launch and deployment
-- `--content` - Content publishing and distribution
-- `--monitor` - Post-launch monitoring setup
+- `--security` - Security vulnerability scanning
+- `--quality` - Code and documentation quality validation
+- `--performance` - Performance audit and analysis
 
-**Examples:**
-```bash
-/deploy --campaign --monitor --validate                    # Safe campaign launch
-/deploy --content --multi-channel --schedule              # Content deployment
-```
-
-#### `/migrate` - Platform and Data Migrations
-Safe migrations of marketing platforms and data.
+#### `/troubleshoot` - Technical Problem Solving
+Systematic debugging and problem resolution.
 
 **Command-Specific Flags:**
-- `--platform` - Marketing platform migrations
-- `--data` - Customer and campaign data migrations
-- `--content` - Content and asset migrations
+- `--code` - Code debugging and issue resolution
+- `--performance` - Performance troubleshooting
+- `--security` - Security issue investigation
 
-**Examples:**
-```bash
-/migrate --platform --backup --validate                   # Platform migration
-/migrate --data --hubspot --motherduck                   # Data migration
-```
+#### `/deploy` - System Deployment
+Safe deployment with monitoring capabilities.
 
-#### `/cleanup` - Campaign and Asset Maintenance
-Professional cleanup of marketing assets and campaigns.
+#### `/migrate` - Data and System Migrations
+Safe migrations with validation and backup.
 
-**Command-Specific Flags:**
-- `--campaigns` - Clean up old campaigns and assets
-- `--content` - Remove outdated content and files
-- `--data` - Clean up marketing data and analytics
+#### `/cleanup` - Code and Documentation Maintenance
+Professional cleanup and maintenance operations.
 
-**Examples:**
-```bash
-/cleanup --campaigns --dry-run                           # Preview campaign cleanup
-/cleanup --content --assets --validate                   # Content cleanup
-```
+#### `/git` - Version Control Operations
+Professional Git operations for code and documentation.
 
-#### `/git` - Version Control for Marketing Assets
-Professional Git operations for marketing asset management.
+#### `/estimate` - Project Planning and Estimation
+Professional estimation for technical projects.
 
-**Command-Specific Flags:**
-- `--assets` - Marketing asset version control
-- `--campaigns` - Campaign version management
-- `--content` - Content version control
-
-**Examples:**
-```bash
-/git --checkpoint "before campaign launch"               # Safety checkpoint
-/git --commit --validate --assets                       # Commit marketing assets
-```
+#### `/task` - Task Management
+Task creation, tracking, and management.
 
 ---
 
 ## Flag Combinations & Best Practices
 
-### 🚀 Professional Marketing Workflows
+### 🚀 Professional Technical Writing Workflows
 
-**Product Launch Campaign**
+**API Documentation Creation**
 ```bash
-/analyze --market --competitive --persona-product-marketer
-/build --campaign --product-launch --magic --hubspot
-/test --landing-page --conversion --pup
-/deploy --campaign --monitor --validate
+/design --api --sequential --openapi                  # API design with analysis
+/build --api --docs --context7 --puppeteer           # Documentation build with testing
+/test --api --documentation --accessibility           # API testing and validation
+/validate --api --security --performance              # API validation
 ```
 
-**Brand Consistency Audit**
+**Code Documentation Workflow**
 ```bash
-/analyze --brand --compliance --persona-brand-strategist
-/review --brand --consistency --strict
-/improve --brand --alignment --iterate
-/validate --guidelines --zero-tolerance
+/analyze --code --architecture --security             # Code analysis
+/explain --code --step-by-step --keywords             # Code explanation
+/document --developer --comprehensive --interactive    # Developer documentation
+/test --documentation --usability --puppeteer         # Documentation testing
 ```
 
-**Growth Optimization Campaign**
+**Technical Architecture Design**
 ```bash
-/analyze --funnel --conversion --motherduck --persona-growth-marketer
-/test --ab-test --statistical --pup
-/improve --conversion --data-driven --iterate
-/validate --performance --roi
+/analyze --architecture --performance --scalability   # Architecture analysis
+/design --architecture --think-hard --sequential      # Architecture design
+/document --architecture --diagrams --comprehensive   # Architecture documentation
+/validate --architecture --security --performance     # Architecture validation
 ```
 
-**Content Marketing Strategy**
+**Database Documentation**
 ```bash
-/analyze --audience --segmentation --hubspot --persona-content-creator
-/build --content-calendar --seo --magic
-/test --content --engagement --google-analytics
-/document --style-guide --brand
+/analyze --database --performance --motherduck        # Database analysis
+/design --database --optimization --sequential        # Database design
+/document --database --schema --queries               # Database documentation
+/validate --sql --performance --motherduck           # SQL validation
 ```
 
 ### 💡 Best Practices
 
-1. **Always validate risky operations**
+1. **Always validate technical operations**
    ```bash
-   /deploy --campaign --validate --plan
-   /migrate --data --dry-run --backup
+   /validate --code --security --performance
+   /test --documentation --accessibility --usability
    ```
 
-2. **Use personas for specialized expertise**
+2. **Use progressive explanations for complex topics**
    ```bash
-   /analyze --campaign --persona-growth-marketer
-   /review --brand --persona-brand-strategist
+   /explain --concept --progressive --step-by-step
+   /document --user --tutorial --accessibility
    ```
 
 3. **Combine MCP servers for maximum capability**
    ```bash
-   /build --campaign --motherduck --hubspot --magic
-   /test --ab-test --pup --google-analytics
+   /build --docs --context7 --puppeteer --motherduck
+   /analyze --code --sequential --motherduck
    ```
 
-4. **Progressive thinking for complex marketing tasks**
+4. **Use deep thinking for complex technical tasks**
    ```bash
-   /analyze --competitive --think
-   /build --strategy --think-hard
-   /analyze --market --ultrathink
+   /analyze --architecture --think-hard
+   /design --api --ultrathink --sequential
    ```
 
 ### 🎯 Quick Reference
 
-**High-Risk Operations**: Always use `--validate` or `--dry-run`
-**Data Analysis Tasks**: Enable `--motherduck` for analytics
-**Customer Research**: Use `--hubspot` for CRM insights
-**Content Creation**: Enable `--magic` for creative generation
-**A/B Testing**: Use `--pup` for browser automation
-**Web Analytics**: Enable `--google-analytics` for metrics
+**Code Analysis**: Use `--motherduck` for data validation
+**Documentation**: Use `--context7` for standards compliance
+**Testing**: Use `--puppeteer` for browser automation and testing
+**Complex Analysis**: Use `--sequential` for multi-step thinking
+**Accessibility**: Always include `--accessibility` for user-facing content
 **Token Saving**: Add `--uc` for 70% reduction
 
-### 📊 Marketing-Specific Combinations
+### 📊 Technical Writing Specific Combinations
 
-**Campaign Performance Analysis**
+**Code Explanation with Documentation**
 ```bash
-/analyze --campaign --motherduck --google-analytics --persona-growth-marketer
+/explain --code --step-by-step --keywords --context7
 ```
 
-**Brand Compliance Review**
+**API Documentation with Testing**
 ```bash
-/review --brand --consistency --strict --persona-brand-strategist
+/build --api --docs --context7 --puppeteer --validate
 ```
 
-**Content Creation Workflow**
+**Technical Content Validation**
 ```bash
-/build --content --magic --hubspot --persona-content-creator
+/validate --documentation --accessibility --usability --context7
 ```
 
-**Data Validation Process**
+**Database Analysis and Documentation**
 ```bash
-/validate --sql --performance --motherduck --persona-sql-auditor
+/analyze --database --motherduck --performance --sequential
 ```
 
-**A/B Testing Campaign**
+**Security Review with Documentation**
 ```bash
-/test --ab-test --pup --statistical --persona-growth-marketer
+/review --security --comprehensive --document --best-practices
 ```
 
 ---
 
-**SuperClaude v0.0.1 Marketing Edition** - 14 marketing commands | 7 marketing personas | Advanced MCP integration | Evidence-based marketing methodology
+**SuperClaude v0.0.1 Technical Writing Edition** - 19 technical commands | Technical writer persona | MCP integration (MotherDuck, Puppeteer, Sequential, Context7) | Documentation excellence methodology

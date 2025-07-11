@@ -1,4 +1,4 @@
-**Purpose**: Comprehensive marketing testing and optimization framework
+**Purpose**: Comprehensive testing framework for code, documentation, and systems
 
 ---
 
@@ -9,169 +9,182 @@ Execute: immediate. --plan→show plan first
 Legend: Generated based on symbols used in command
 Purpose: "[Action][Subject] in $ARGUMENTS"
 
-Create or run comprehensive marketing tests for campaigns, content, or user experiences specified in $ARGUMENTS using modern testing methodologies and analytics.
+Create or run comprehensive tests for code, documentation, or systems specified in $ARGUMENTS using modern testing methodologies and validation.
 
 @include shared/flag-inheritance.yml#Universal_Always
 
 Examples:
-- `/test --ab-test --pup` - A/B testing with browser automation
-- `/test --content --google-analytics` - Content performance testing
-- `/test --campaign --motherduck --coverage` - Campaign performance analysis
-- `/test --funnel --conversion` - Conversion funnel testing
-- `/test --brand --consistency` - Brand consistency validation
+- `/test --unit --coverage --motherduck` - Unit testing with coverage analysis
+- `/test --integration --puppeteer` - Integration testing with browser automation
+- `/test --documentation --accessibility --context7` - Documentation testing
+- `/test --performance --load --sequential` - Performance and load testing
+- `/test --security --vulnerability` - Security vulnerability testing
 
 ## Command-Specific Flags
---ab-test: "A/B testing workflow (hypothesis→variants→statistical analysis)"
---content: "Content performance testing w/ engagement metrics"
---campaign: "Campaign performance testing across channels"
---funnel: "Conversion funnel testing and optimization"
---landing-page: "Landing page performance and conversion testing"
---email: "Email template and campaign testing"
---social: "Social media content and campaign testing"
---brand: "Brand consistency and compliance testing"
---user-experience: "User experience and usability testing"
---conversion: "Conversion rate optimization testing"
+--unit: "Unit testing workflow (isolation→coverage→validation)"
+--integration: "Integration testing across system components"
+--e2e: "End-to-end testing with real user scenarios"
+--performance: "Performance testing and benchmarking"
+--load: "Load testing and scalability validation"
+--security: "Security testing and vulnerability assessment"
+--accessibility: "Accessibility compliance testing"
+--documentation: "Documentation accuracy and usability testing"
+--api: "API functionality and contract testing"
+--database: "Database testing and data validation"
 
-## Testing Methodologies
+## Testing Modes
 
-**A/B Testing Framework:**
-- Hypothesis development and test design
-- Statistical significance calculations
-- Variant creation and traffic allocation
-- Performance monitoring and analysis
-- Winner determination and implementation
+**--unit:** Unit testing and code coverage
+- Individual function and method testing
+- Code coverage analysis and reporting
+- Test-driven development (TDD) workflows
+- Mocking and stubbing strategies
+- Assertion libraries and frameworks
 
-**Multivariate Testing:**
-- Multiple element testing and interaction analysis
-- Complex campaign optimization
-- Statistical modeling and significance testing
-- Performance attribution and insights
+**--integration:** Integration testing workflows
+- Component interaction testing
+- API integration validation
+- Database integration testing
+- Service-to-service communication testing
+- Third-party service integration testing
 
-**Content Testing:**
-- Headline and copy performance testing
-- Visual asset effectiveness analysis
-- Content format and length optimization
-- Engagement and conversion testing
+**--e2e:** End-to-end testing scenarios
+- User journey testing and validation
+- Cross-browser compatibility testing
+- Mobile responsiveness testing
+- User interface interaction testing
+- Business workflow validation
 
-**User Experience Testing:**
-- Usability testing and user journey analysis
-- Interface and interaction optimization
-- Mobile and cross-device experience testing
-- Accessibility and performance validation
+**--performance:** Performance testing and optimization
+- Load testing and stress testing
+- Response time and throughput analysis
+- Resource utilization monitoring
+- Bottleneck identification and resolution
+- Scalability testing and validation
+
+**--security:** Security testing and vulnerability assessment
+- Authentication and authorization testing
+- Input validation and sanitization testing
+- SQL injection and XSS vulnerability testing
+- API security testing and validation
+- Data protection and privacy testing
+
+**--accessibility:** Accessibility compliance testing
+- WCAG guidelines compliance validation
+- Screen reader compatibility testing
+- Keyboard navigation testing
+- Color contrast and visual accessibility
+- Alternative text and semantic markup validation
 
 ## MCP Integration Patterns
 
-**Puppeteer Testing:**
-- Automated browser testing for landing pages
-- Email template rendering across clients
-- Social media content preview testing
-- User flow and conversion funnel testing
-- Performance and load testing automation
+**Puppeteer Integration:**
+- Browser automation and testing
+- User interface testing and validation
+- Performance testing in real browsers
+- Accessibility compliance verification
+- Visual regression testing
 
-**MotherDuck Analytics:**
-- Test result data analysis and statistical validation
-- Performance metric calculation and comparison
-- Historical test data analysis and insights
-- Predictive modeling for test outcomes
+**MotherDuck Integration:**
+- Test data management and validation
+- Performance metrics analysis
+- Test result aggregation and reporting
+- Data-driven testing scenarios
+- Query performance testing
 
-**Google Analytics Integration:**
-- Goal tracking and conversion measurement
-- User behavior analysis during tests
-- Traffic source performance during tests
-- Real-time test monitoring and alerts
+**Sequential Integration:**
+- Complex test scenario planning
+- Multi-step testing workflows
+- Strategic testing analysis
+- Comprehensive test coverage planning
 
-**HubSpot Integration:**
-- Lead quality analysis during tests
-- Customer journey testing and optimization
-- Personalization testing and segmentation
-- Sales conversion impact analysis
+**Context7 Integration:**
+- Documentation testing and validation
+- Technical writing quality assessment
+- Style guide compliance testing
+- Knowledge base validation
 
-## Test Types and Applications
+## Technical Writer Persona Activation
 
-**Campaign Testing:**
-- Message testing and optimization
-- Channel performance comparison
-- Audience segment effectiveness
-- Creative asset performance analysis
-- Timing and frequency optimization
+Auto-activates technical writer persona for testing tasks with focus on:
+- Documentation accuracy and completeness testing
+- Technical content validation
+- User experience testing
+- Accessibility compliance verification
 
-**Content Testing:**
-- Headline and subject line optimization
-- Content format and length testing
-- Call-to-action effectiveness
-- Visual content performance
-- Content distribution optimization
+## Quality Standards
 
-**Landing Page Testing:**
-- Layout and design optimization
-- Form optimization and conversion
-- Loading speed and performance
-- Mobile responsiveness and usability
-- Trust signals and social proof
+**Test Coverage Standards:**
+- Minimum 80% code coverage for unit tests
+- Comprehensive integration test coverage
+- End-to-end test coverage for critical user journeys
+- Performance benchmark validation
+- Security vulnerability assessment
 
-**Email Testing:**
-- Subject line and preview text optimization
-- Template design and layout testing
-- Send time and frequency optimization
-- Personalization effectiveness
-- Call-to-action placement and design
+**Documentation Testing Standards:**
+- Technical accuracy verification
+- Code example validation and testing
+- User guide usability testing
+- Accessibility compliance validation
+- Style guide adherence checking
 
-**Social Media Testing:**
-- Post format and content optimization
-- Posting time and frequency testing
-- Hashtag and keyword effectiveness
-- Visual content performance
-- Engagement and reach optimization
+**API Testing Standards:**
+- Contract testing and validation
+- Security testing and vulnerability assessment
+- Performance benchmarking
+- Error handling and edge case testing
+- Documentation accuracy verification
 
-## Marketing Persona Activation
+## Testing Frameworks and Tools
 
-Auto-activates appropriate personas based on test type:
-- A/B testing → Growth Marketer persona
-- Content testing → Content Creator persona
-- Brand testing → Brand Strategist persona
-- User experience testing → Technical Writer persona
-- Performance testing → SQL Auditor persona
+**Unit Testing:**
+- Jest (JavaScript/TypeScript)
+- pytest (Python)
+- JUnit (Java)
+- RSpec (Ruby)
+- PHPUnit (PHP)
+- Go testing package
 
-@include shared/marketing-quality-patterns.yml#Marketing_Severity_Levels
+**Integration Testing:**
+- Postman/Newman (API testing)
+- Testcontainers (database testing)
+- WireMock (service mocking)
+- Cypress (browser testing)
+- Selenium (web application testing)
 
-## Statistical Standards
+**Performance Testing:**
+- JMeter (load testing)
+- k6 (performance testing)
+- Artillery (load testing)
+- Lighthouse (web performance)
+- WebPageTest (performance analysis)
 
-Testing requires:
-- **Sample Size**: Minimum sample size calculations for statistical power
-- **Significance Level**: 95% confidence level (p < 0.05) for test validity
-- **Test Duration**: Minimum test duration for reliable results
-- **Practical Significance**: Minimum detectable effect size definition
-- **Data Quality**: Data validation and outlier detection
+**Security Testing:**
+- OWASP ZAP (security scanning)
+- Burp Suite (security testing)
+- Snyk (vulnerability scanning)
+- SonarQube (code quality and security)
+- Bandit (Python security linting)
 
-## Test Documentation
+## Test Reporting and Analysis
 
-All tests include:
-- **Test Plan**: Hypothesis, methodology, success criteria
-- **Setup Documentation**: Configuration, targeting, technical setup
-- **Results Analysis**: Statistical analysis, insights, recommendations
-- **Implementation Plan**: Winner implementation and follow-up testing
-- **Learning Documentation**: Key insights and future test ideas
+**Test Results:**
+- Comprehensive test execution reports
+- Code coverage analysis and trends
+- Performance benchmarking results
+- Security vulnerability assessments
+- Accessibility compliance reports
 
-@include shared/marketing-docs-patterns.yml#Research_Report_Template
+**Quality Metrics:**
+- Test pass/fail rates and trends
+- Code coverage percentages
+- Performance benchmarks and thresholds
+- Security vulnerability counts
+- Accessibility compliance scores
 
-## Quality Assurance Framework
-
-**Pre-Test Validation:**
-- Hypothesis validation and test design review
-- Technical setup verification and quality checks
-- Sample size and duration calculation validation
-- Success criteria and measurement definition
-
-**During-Test Monitoring:**
-- Real-time performance monitoring and alerts
-- Data quality validation and anomaly detection
-- Statistical significance tracking
-- External factor monitoring and documentation
-
-**Post-Test Analysis:**
-- Statistical significance validation and interpretation
-- Practical significance assessment and business impact
-- Confounding factor analysis and documentation
-- Actionable insights and recommendation development
-
-@include shared/marketing-quality-patterns.yml#Campaign_Quality_Gates
+**Recommendations:**
+- Test coverage improvement suggestions
+- Performance optimization opportunities
+- Security vulnerability remediation
+- Accessibility compliance improvements
+- Testing strategy enhancements

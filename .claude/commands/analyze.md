@@ -1,4 +1,4 @@
-**Purpose**: Multi-dimensional marketing and campaign analysis
+**Purpose**: Technical analysis for code, architecture, and documentation
 
 ---
 
@@ -9,74 +9,106 @@ Execute: immediate. --plan→show plan first
 Legend: Generated based on symbols used in command
 Purpose: "[Action][Subject] in $ARGUMENTS"
 
-Multi-dimensional analysis on campaigns, content, audience, or performance data in $ARGUMENTS.
+Multi-dimensional technical analysis on code, architecture, documentation, or system performance in $ARGUMENTS.
 
 @include shared/flag-inheritance.yml#Universal_Always
 
 Examples:
-- `/analyze --campaign --motherduck` - Campaign performance analysis with data
-- `/analyze --brand --seq` - Deep brand consistency analysis  
-- `/analyze --audience --hubspot --think` - Comprehensive audience segmentation
-- `/analyze --competitive --think-hard` - Strategic competitive analysis
+- `/analyze --code --motherduck` - Code analysis with data validation
+- `/analyze --architecture --seq` - Deep architectural analysis  
+- `/analyze --documentation --think` - Comprehensive documentation review
+- `/analyze --performance --think-hard` - Strategic performance analysis
 
 Analysis modes:
 
-**--campaign:** Performance review→metrics, conversion, ROI | Issues→underperformance, attribution, targeting | Optimization→A/B tests, segments, channels | Trends→growth, seasonal, lifecycle
+**--code:** Code quality & structure | Performance bottlenecks | Security vulnerabilities | Design patterns | Technical debt assessment | Dependencies analysis
 
-**--brand:** Brand consistency & compliance | Voice alignment across channels | Visual identity usage | Message coherence assessment | Brand guideline adherence
+**--architecture:** System design patterns | Component relationships | Data flow analysis | Scalability assessment | Integration points | Technology stack evaluation
 
-**--audience:** Customer segmentation & behavior | Journey mapping & touchpoints | Engagement patterns & preferences | Conversion funnel analysis | Persona validation & insights
+**--documentation:** Content clarity & accuracy | Technical accuracy | User experience | Completeness gaps | Structure optimization | Accessibility compliance
 
-**--competitive:** Market positioning & differentiation | Competitive messaging & strategy | Share of voice & presence | Campaign tactics & performance | Opportunity identification
+**--performance:** System bottlenecks | Query optimization | Resource utilization | Response times | Scalability limits | Memory usage patterns
 
-**--content:** Performance metrics & engagement | Brand voice consistency | SEO optimization & ranking | Social sharing & virality | Conversion attribution & optimization
+**--security:** Vulnerability assessment | Code security patterns | Authentication flows | Data protection | Input validation | Security best practices
 
-**--funnel:** Conversion path analysis | Drop-off point identification | Attribution modeling | Customer journey optimization | Multi-touch analysis
+**--dependencies:** Package analysis | Version compatibility | Security vulnerabilities | Update requirements | Dependency conflicts | License compliance
 
 ## MCP Integration Patterns
 
 **MotherDuck Integration:**
-- Campaign performance data extraction and analysis
-- Customer behavior pattern analysis
-- ROI and attribution modeling
-- Cohort analysis and retention metrics
+- Code metrics and performance data analysis
+- Query performance optimization
+- Database schema analysis
+- System performance benchmarking
 
-**HubSpot Integration:**
-- Customer segmentation and persona analysis
-- Lead scoring and qualification analysis
-- Campaign attribution and pipeline analysis
-- Customer lifecycle and journey mapping
+**Sequential Integration:**
+- Complex architectural analysis
+- Multi-step problem decomposition
+- Strategic technical decision making
+- Root cause analysis for system issues
 
-**Google Analytics Integration:**
-- Website performance and user behavior analysis
-- Content engagement and conversion analysis
-- Traffic source attribution and optimization
-- Goal completion and funnel analysis
+**Context7 Integration:**
+- Documentation standards compliance
+- Technical writing style consistency
+- Code documentation quality assessment
+- Knowledge base organization
 
-**Sequential Analysis:**
-- Complex strategic market analysis
-- Multi-factor competitive positioning
-- Customer journey optimization strategies
-- Campaign performance root cause analysis
+**Puppeteer Integration:**
+- User interface testing and validation
+- Documentation usability testing
+- Performance testing in real browsers
+- Accessibility compliance verification
 
-## Marketing Persona Activation
+## Technical Writer Persona Activation
 
-Auto-activates appropriate personas based on analysis type:
-- Campaign analysis → Growth Marketer persona
-- Brand analysis → Brand Strategist persona  
-- Content analysis → Content Creator persona
-- Audience analysis → Product Marketer persona
-- Performance analysis → SQL Auditor persona
-
-@include shared/marketing-quality-patterns.yml#Marketing_Severity_Levels
+Auto-activates technical writer persona with focus on:
+- Code documentation analysis
+- Technical content quality assessment
+- User-focused documentation reviews
+- Accessibility and clarity improvements
 
 ## Output Standards
 
 Analysis reports include:
-- **Executive Summary**: Key findings and recommendations
-- **Data Sources**: All data sources with timestamps and links
-- **Evidence**: Supporting metrics and visualizations
-- **Recommendations**: Prioritized action items with expected impact
-- **Next Steps**: Specific implementation guidance
+- **Executive Summary**: Key findings and technical recommendations
+- **Technical Details**: Code examples, architecture diagrams, performance metrics
+- **Evidence**: Supporting data, test results, and measurements
+- **Recommendations**: Prioritized action items with implementation guidance
+- **Documentation**: Clear explanations for technical and non-technical stakeholders
 
-@include shared/marketing-docs-patterns.yml#Documentation_Quality
+## Analysis Types
+
+**Code Analysis:**
+- Code quality metrics and best practices compliance
+- Performance bottlenecks and optimization opportunities
+- Security vulnerabilities and mitigation strategies
+- Design patterns and architectural improvements
+- Technical debt assessment and remediation plans
+
+**Architecture Analysis:**
+- System design evaluation and recommendations
+- Component interaction and dependency mapping
+- Scalability and performance considerations
+- Integration patterns and API design
+- Technology stack assessment and optimization
+
+**Documentation Analysis:**
+- Content accuracy and technical correctness
+- User experience and accessibility compliance
+- Information architecture and navigation
+- Completeness and gap identification
+- Style guide compliance and consistency
+
+**Performance Analysis:**
+- System bottleneck identification and resolution
+- Database query optimization and indexing
+- Resource utilization and capacity planning
+- Response time optimization and caching strategies
+- Load testing and scalability assessment
+
+**Security Analysis:**
+- Vulnerability scanning and risk assessment
+- Code security pattern evaluation
+- Authentication and authorization review
+- Data protection and privacy compliance
+- Security best practices implementation
