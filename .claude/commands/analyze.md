@@ -1,4 +1,4 @@
-**Purpose**: Technical analysis for code, architecture, and documentation
+**Purpose**: Marketing content analysis and performance optimization
 
 ---
 
@@ -9,25 +9,25 @@ Execute: immediate. --plan→show plan first
 Legend: Generated based on symbols used in command
 Purpose: "[Action][Subject] in $ARGUMENTS"
 
-Multi-dimensional technical analysis on code, architecture, documentation, or system performance in $ARGUMENTS.
+Multi-dimensional marketing content analysis on performance, engagement, brand consistency, and content effectiveness in $ARGUMENTS.
 
 @include shared/flag-inheritance.yml#Universal_Always
 
 Examples:
-- `/analyze --code --motherduck` - Code analysis with data validation
-- `/analyze --architecture --seq` - Deep architectural analysis  
-- `/analyze --documentation --think` - Comprehensive documentation review
-- `/analyze --performance --think-hard` - Strategic performance analysis
+- `/analyze --content --motherduck` - Content performance with analytics data
+- `/analyze --engagement --sequential` - Deep engagement analysis  
+- `/analyze --brand --think` - Comprehensive brand consistency review
+- `/analyze --competitive --think-hard` - Strategic competitive analysis
 
 Analysis modes:
 
-**--code:** Code quality & structure | Performance bottlenecks | Security vulnerabilities | Design patterns | Technical debt assessment | Dependencies analysis
+**--content:** Content performance & engagement | SEO effectiveness | Conversion rates | Social media reach | Content quality scoring | Audience response analysis
 
-**--architecture:** System design patterns | Component relationships | Data flow analysis | Scalability assessment | Integration points | Technology stack evaluation
+**--engagement:** User interaction patterns | Click-through rates | Time on page | Social shares | Comment analysis | Conversion funnel performance
 
-**--documentation:** Content clarity & accuracy | Technical accuracy | User experience | Completeness gaps | Structure optimization | Accessibility compliance
+**--brand:** Brand consistency across content | Voice and tone alignment | Visual identity compliance | Message coherence | Brand guideline adherence | Competitive positioning
 
-**--performance:** System bottlenecks | Query optimization | Resource utilization | Response times | Scalability limits | Memory usage patterns
+**--competitive:** Competitor content strategies | Market positioning analysis | Content gap identification | Performance benchmarking | Industry trend analysis | Opportunity assessment
 
 **--security:** Vulnerability assessment | Code security patterns | Authentication flows | Data protection | Input validation | Security best practices
 

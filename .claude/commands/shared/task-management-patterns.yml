@@ -11,13 +11,13 @@ Task_Management_Hierarchy:
   Level_1_Tasks: "High-level features (./claudedocs/tasks/ folders)"
     Purpose: "Session persistence, git branching, requirement tracking"
     Scope: "Features spanning multiple sessions"
-    Examples: ["build auth system", "implement dashboard", "create API"]
+    Examples: ["create blog post series", "develop case study", "launch product whitepaper"]
     Format: "Comprehensive markdown files w/ full context"
     
   Level_2_Todos: "Immediate actionable steps (TodoWrite/TodoRead)"
     Purpose: "Real-time execution tracking within session"
     Scope: "Current session specific actions"
-    Examples: ["Update user.js", "Add validation", "Write test"]
+    Examples: ["Research competitors", "Write introduction", "Generate diagrams", "Audit code examples"]
     Format: "JSON objects w/ status tracking"
 
 Integration_Flow:

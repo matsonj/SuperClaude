@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# SuperClaude Installer Script
-# Installs SuperClaude configuration framework to enhance Claude Code
+# SuperClaude Marketing Copy Workflow Installer Script
+# Installs SuperClaude marketing workflow framework to enhance Claude Code
 # Version: 2.0.0
 # License: MIT
 # Repository: https://github.com/matsonj/SuperClaude
@@ -406,7 +406,7 @@ load_config() {
 # Parameters: None
 # Returns: None
 show_usage() {
-    echo "SuperClaude Installer v$SCRIPT_VERSION"
+    echo "SuperClaude Marketing Copy Workflow Installer v$SCRIPT_VERSION"
     echo ""
     echo "Usage: $0 [OPTIONS]"
     echo ""
@@ -426,7 +426,7 @@ show_usage() {
     echo "  -h, --help          Show this help message"
     echo ""
     echo "Examples:"
-    echo "  $0                          # Install to default location"
+    echo "  $0                          # Install marketing workflow to default location"
     echo "  $0 --dir /opt/claude        # Install to /opt/claude"
     echo "  $0 --dir ./local-claude     # Install to ./local-claude"
     echo "  $0 --force                  # Install without prompts"
@@ -1021,7 +1021,7 @@ while [[ $# -gt 0 ]]; do
             shift 2
             ;;
         --version)
-            echo "SuperClaude Installer v$SCRIPT_VERSION"
+            echo "SuperClaude Marketing Copy Workflow Installer v$SCRIPT_VERSION"
             exit 0
             ;;
         -h|--help)
@@ -1052,8 +1052,8 @@ fi
 
 # Handle uninstall mode
 if [[ "$UNINSTALL_MODE" = true ]]; then
-    echo -e "${GREEN}SuperClaude Uninstaller${NC}"
-    echo "========================"
+    echo -e "${GREEN}SuperClaude Marketing Copy Workflow Uninstaller${NC}"
+    echo "================================================="
     echo -e "Target directory: ${YELLOW}$INSTALL_DIR${NC}"
     echo ""
     
@@ -1145,8 +1145,8 @@ fi
 
 # Handle verify mode
 if [[ "$VERIFY_MODE" = true ]]; then
-    echo -e "${GREEN}SuperClaude Verification${NC}"
-    echo "========================="
+    echo -e "${GREEN}SuperClaude Marketing Copy Workflow Verification${NC}"
+    echo "================================================="
     echo -e "Target directory: ${YELLOW}$INSTALL_DIR${NC}"
     echo ""
     
@@ -1250,8 +1250,8 @@ if [[ "$VERIFY_MODE" = true ]]; then
     exit 0
 fi
 
-echo -e "${GREEN}SuperClaude Installer${NC}"
-echo "======================"
+echo -e "${GREEN}SuperClaude Marketing Copy Workflow Installer${NC}"
+echo "================================================="
 echo -e "Installation directory: ${YELLOW}$INSTALL_DIR${NC}"
 if [[ "$DRY_RUN" = true ]]; then
     echo -e "${BLUE}Mode: DRY RUN (no changes will be made)${NC}"
@@ -1815,8 +1815,8 @@ if [ "$actual_files" -ge "$expected_files" ] && [ "$critical_files_ok" = true ] 
         echo ""
         echo "Next steps:"
         echo "1. Open any project with Claude Code"
-        echo "2. Try a command: /analyze --code"
-        echo "3. Activate a persona: /analyze --persona-architect"
+        echo "2. Try a marketing command: /research --web --competitors"
+        echo "3. Start the workflow: /template --blog --outline"
         echo ""
     fi
     if [ -n "$BACKUP_DIR" ] && [ -d "$BACKUP_DIR" ]; then

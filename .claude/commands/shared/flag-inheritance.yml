@@ -35,15 +35,14 @@ Universal_Always:
     --no-pup: "Disable Puppeteer specifically"
     
   Persona_Control:
-    --persona-architect: "Systems architect thinking mode (sequential design, patterns)"
-    --persona-frontend: "Frontend developer mode (UI/UX focus, Magic components)"
-    --persona-backend: "Backend developer mode (API design, scalability focus)"
-    --persona-analyzer: "Deep analysis mode (root cause, evidence-based)"
-    --persona-security: "Security-focused mode (threat modeling, vulnerabilities)"
-    --persona-mentor: "Teaching/mentoring mode (guided learning, explanations)"
-    --persona-refactorer: "Code refactoring mode (quality improvements, cleanup)"
-    --persona-performance: "Performance optimization mode (profiling, bottlenecks)"
-    --persona-qa: "Quality assurance mode (testing, edge cases, validation)"
+    --persona-content-strategist: "Marketing content strategist mode (campaigns, positioning)"
+    --persona-copywriter: "Professional copywriter mode (persuasive, engaging content)"
+    --persona-technical-writer: "Technical marketing writer mode (accurate, detailed)"
+    --persona-brand-strategist: "Brand strategy mode (voice, consistency, guidelines)"
+    --persona-seo-specialist: "SEO optimization mode (keywords, search visibility)"
+    --persona-research-analyst: "Market research mode (competitive analysis, insights)"
+    --persona-designer: "Visual content designer mode (diagrams, graphics)"
+    --persona-qa-editor: "Content quality assurance mode (accuracy, compliance)"
     
   Introspection:
     --introspect: "Deep transparency mode - expose thinking, decisions, workflow"
@@ -72,11 +71,13 @@ Performance:
   --watch-perf: "Continuous performance monitoring"
   
 Marketing:
-  --ab-test: "A/B testing setup and analysis"
-  --brand-audit: "Comprehensive brand compliance audit"
-  --campaign-launch: "Full campaign launch workflow"
-  --content-calendar: "Content calendar planning and execution"
-  --customer-journey: "Customer journey mapping and optimization"
+  --research: "Enable comprehensive research integration"
+  --templates: "Use content templates and frameworks"
+  --library: "Leverage existing content library"
+  --brand-compliance: "Ensure brand consistency and guidelines"
+  --seo-optimized: "Apply SEO best practices and optimization"
+  --technical-accuracy: "Validate technical claims and code snippets"
+  --visual-enhanced: "Include diagrams and visual elements"
 ```
 
 ## Command Group Templates

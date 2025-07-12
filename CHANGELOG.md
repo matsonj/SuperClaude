@@ -5,14 +5,37 @@ All notable changes to SuperClaude will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.0.2] - 2024-07-11
 
-### Fixed
-- Added missing `/task` command documentation to COMMANDS.md
-- Updated command count references from 18 to 19 across documentation files
-- Corrected `/task` command flag syntax in index.md to use colon operations
+### Added
+- **Complete Marketing Copy Workflow**: 10-step systematic workflow from research to publication
+- **Research Tools** (`/research`): Web research, competitor analysis, internal content discovery
+- **Content Templates** (`/template`): Document templates for blogs, case studies, whitepapers, press releases
+- **Content Library Management** (`/library`): Index and leverage existing codebase, docs, blogs, partner content
+- **Outline Generation** (`/outline`): Strategic content structure with SEO optimization
+- **Progressive Writing** (`/write`): Research-driven content development with library integration
+- **Visual Enhancement** (`/diagram`): SVG diagram generation with intelligent placement suggestions
+- **Code Auditing** (`/audit-code`): Technical accuracy validation for all code examples
+- **Content Refinement** (`/refine`): Optimization against research findings and brand guidelines
+- **Strapi CMS Integration** (`/publish`): Automated publishing with metadata generation
+- **MCP Integration**: Enhanced support for MotherDuck, Puppeteer, Sequential, and Context7
 
-## [0.0.1] - 2025-06-26
+### Changed
+- **Complete Framework Redesign**: Transformed from technical writing to marketing copy workflow
+- **Updated Core Identity**: Now focused on marketing content strategy and high-quality copy creation
+- **New Command Structure**: Marketing-specific commands replacing general technical writing tools
+- **Enhanced Quality Standards**: Research accuracy, brand consistency, technical accuracy, content optimization
+
+### Removed
+- Previous technical writing-focused commands and documentation
+- Generic documentation templates
+- Technical writing personas and patterns
+
+---
+
+## Previous Versions
+
+### [0.0.1] - 2025-06-26 (Technical Writing Edition)
 
 ### Added
 - `--introspect` flag for framework self-analysis and improvement capabilities
@@ -22,43 +45,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Corrected file count reporting in install.sh verification process
 - Resolved critical file copying issues in install.sh
 
-## [2.0.0] - 2025-06-26
-
-### Added
-- Comprehensive security and robustness improvements to install.sh
-- Optimize all 18 command files using @include reference system
-- Commands cheat sheet documentation
-- Custom installation directory support (#4)
-- Community interaction files (CONTRIBUTING.md, CODE_OF_CONDUCT.md)
-- MIT License
-
-### Changed
-- Complete migration to v2 with @include reference system
-- Standardized @include reference system across all command files
-- Migrated PERSONAS to flag system for Claude Code compliance
-- Transformed README.md into engaging developer-friendly format
-- Major optimization achieving 35% token reduction through template system & file consolidation
-- Enhanced Task Management System - Adaptation of PR #5 (#7)
-
-### Removed
-- All hard claims, metrics, and numeric targets
-- All references to user: and project: prefixes
-- References to deleted scripts and pattern system
-
-### Fixed
-- Shared resources count in install.sh
-- .gitignore configuration and removed logs/claudedocs from tracking
-
-## [1.0.0] - 2025-06-22
-
-### Added
-- Initial release of SuperClaude v1.0.0 configuration framework
-- Core configuration system with CLAUDE.md
-- Command system with 18 optimized command files
-- Shared resources and patterns
-- Installation script (install.sh)
-- Comprehensive documentation
-
 ---
 
-*Note: This changelog was generated from git history. For detailed commit messages, run `git log`.*
+*Note: Version 0.0.2 represents a complete rewrite focusing on marketing copy workflow. Previous versions were technical writing focused.*

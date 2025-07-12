@@ -1,304 +1,306 @@
-# SuperClaude – Technical Writing Framework for Claude Code
+# SuperClaude – Marketing Copy Workflow Framework for Claude Code
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/matsonj/SuperClaude)
+[![Version](https://img.shields.io/badge/version-0.0.2-blue.svg)](https://github.com/matsonj/SuperClaude)
 [![GitHub issues](https://img.shields.io/github/issues/matsonj/SuperClaude)](https://github.com/matsonj/SuperClaude/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/matsonj/SuperClaude/blob/master/CONTRIBUTING.md)
 
-**A configuration framework that enhances Claude Code with specialized technical writing capabilities, documentation standards, and clear communication methodologies.**
+**A comprehensive framework that enhances Claude Code with a systematic 10-step marketing copy workflow, from research to publication.**
 
-## 🚀 Version 0.0.1 - Technical Writing Edition
+## 🚀 Version 0.0.2 - Marketing Copy Workflow Edition
 
-SuperClaude v0.0.1 Technical Writing Edition introduces specialized documentation capabilities:
+SuperClaude v0.0.2 introduces a complete marketing content creation system:
 
-- **⚡ Streamlined Architecture**: Clean configuration focused on technical writing excellence
-- **📝 Technical Writing Standards**: Code documentation with comprehensive comments, keyword breakdowns, and step-by-step explanations
-- **📊 MCP Integration**: MotherDuck, Puppeteer, Sequential, and Context7 for data-driven documentation
-- **🔧 Progressive Learning**: Build complexity incrementally with clear connections between concepts
-- **🎯 Audience-First Approach**: Documentation that enables user success through clarity and usability
+- **📝 10-Step Marketing Workflow**: Research → Templates → Library → Outline → Write → Refine → Diagrams → Audit → Publish → Analytics
+- **🔍 Comprehensive Research Tools**: Web research, competitor analysis, internal content discovery
+- **📚 Content Library Management**: Index and leverage existing codebase, docs, blogs, and partner content
+- **🎨 Visual Enhancement**: SVG diagram generation with intelligent placement suggestions
+- **🔧 Technical Accuracy**: Code snippet validation and performance auditing
+- **🚀 CMS Integration**: Direct Strapi publishing with automated formatting and metadata
 
-See [ROADMAP.md](ROADMAP.md) for future development ideas and contribution opportunities.
+## 🎯 The Marketing Copy Challenge
 
-## 🎯 Background
+Creating high-quality marketing content requires:
+- **Comprehensive Research** across web sources, competitors, and internal materials
+- **Content Consistency** leveraging existing documentation and code examples
+- **Technical Accuracy** ensuring all code snippets and claims are validated
+- **Visual Enhancement** with diagrams and supporting graphics
+- **Brand Compliance** maintaining voice, tone, and messaging consistency
+- **Efficient Publishing** with proper SEO and social media optimization
 
-Claude Code provides powerful capabilities but can benefit from:
-- **Specialized expertise** for technical documentation and clear communication
-- **Token efficiency** for complex documentation projects  
-- **Evidence-based approaches** to technical writing
-- **Context preservation** during documentation sessions
-- **Data-driven decision making** for documentation optimization
+## ✨ SuperClaude Marketing Copy Features
 
-## ✨ SuperClaude Technical Writing Features
+SuperClaude transforms Claude Code into a comprehensive marketing content creation system:
 
-SuperClaude enhances Claude Code with:
-- **Technical Documentation Excellence** with comprehensive code explanations
-- **Progressive Learning Structure** for building complexity incrementally
-- **Token Optimization** with clear, concise communication
-- **Evidence-Based Methodology** requiring data validation for technical claims
-- **MCP Integration** with MotherDuck, Puppeteer, Sequential, and Context7
-- **Quality Standards** for accuracy, clarity, and accessibility
-- **Audience-First Approach** ensuring documentation serves user success
+### 🔍 **Research & Discovery**
+- **Web Research** (`/research --web`) - Industry trends, competitive analysis, market intelligence
+- **Internal Research** (`/research --internal`) - Codebase documentation, existing content, partner materials
+- **Customer Research** (`/research --customers`) - Testimonials, case studies, success stories
+
+### 📝 **Content Planning & Creation**
+- **Template System** (`/template`) - Document templates for blogs, case studies, whitepapers, press releases
+- **Content Library** (`/library`) - Index and search existing materials for reuse opportunities
+- **Outline Generation** (`/outline`) - Strategic content structure with SEO optimization
+- **Progressive Writing** (`/write`) - Research-driven content development with library integration
+
+### 🎨 **Enhancement & Quality**
+- **Visual Enhancement** (`/diagram`) - SVG diagram generation with placement intelligence
+- **Code Auditing** (`/audit-code`) - Technical accuracy validation for all code examples
+- **Content Refinement** (`/refine`) - Optimization against research findings and brand guidelines
+
+### 🚀 **Publishing & Distribution**
+- **Strapi Integration** (`/publish`) - Automated CMS publishing with metadata generation
+- **SEO Optimization** - Meta descriptions, social previews, structured data
+- **Performance Tracking** - Analytics integration and content performance monitoring
 
 ## 🚀 Installation
 
-### Enhanced Installer v0.0.1
-The installer provides various options:
-
+### Quick Install
 ```bash
 git clone https://github.com/matsonj/SuperClaude.git
 cd SuperClaude
-
-# Basic installation
-./install.sh                           # Default: ~/.claude/
-
-# Advanced options
-./install.sh --dir /opt/claude        # Custom location
-./install.sh --update                 # Update existing installation
-./install.sh --dry-run --verbose      # Preview changes with details
-./install.sh --force                  # Skip confirmations (automation)
-./install.sh --log install.log        # Log all operations
+./install.sh
 ```
 
-**v0.0.1 Installer Features:**
-- 🔄 **Update Mode**: Preserves customizations while updating
-- 👁️ **Dry Run**: Preview changes before applying
-- 💾 **Smart Backups**: Automatic backup with timestamping
-- 🧹 **Clean Updates**: Removes obsolete files
-- 🖥️ **Platform Detection**: Works with Linux, macOS, WSL
-- 📊 **Progress Tracking**: Installation feedback
+### Advanced Installation Options
+```bash
+# Custom installation directory
+./install.sh --dir /opt/claude
 
-Zero dependencies. Installs to `~/.claude/` by default.
+# Update existing installation
+./install.sh --update
 
-**Note:** After installation, all configuration files are located in `~/.claude/` (your home directory), not in the project directory.
+# Preview changes without installing
+./install.sh --dry-run --verbose
 
-## 💡 Core Technical Writing Capabilities
+# Automated installation for CI/CD
+./install.sh --force --log install.log
+```
 
-### 🧠 **Technical Documentation Excellence**
-Structured approach to code explanations and technical content:
+**Installation Features:**
+- 🔄 **Smart Updates**: Preserves customizations during updates
+- 👁️ **Preview Mode**: See changes before applying
+- 💾 **Automatic Backups**: Timestamped backups of existing configurations
+- 🖥️ **Cross-Platform**: Works on Linux, macOS, and WSL
+- 📊 **Progress Tracking**: Detailed installation feedback
+
+**Note:** Configuration files are installed to `~/.claude/` (your home directory).
+
+## 💡 Marketing Copy Workflow
+
+### 🔍 **Phase 1: Research & Discovery**
+Comprehensive content research across multiple sources:
 
 ```bash
-# Code documentation with comprehensive comments
-# Keyword breakdown with bold formatting for technical terms
-# Step-by-step explanations with numbered lists
-# Context sections explaining practical value
+# Industry and competitive research
+/research --web --industry --competitors --deep --sequential
+
+# Internal content discovery
+/research --internal --codebase --docs --blogs --motherduck
+
+# Customer insights and testimonials
+/research --customers --case-studies --testimonials --performance
 ```
 
-**v0.0.1 Update**: Focus on technical writing standards with progressive learning structure and audience-first approach.
+### 📋 **Phase 2: Planning & Structure**
+Strategic content planning with proven templates:
 
-### ⚡ **Technical Writing Workflow**
-Comprehensive documentation approach:
-
-**Code Documentation**
 ```bash
-/analyze --code --architecture --persona-architect --seq    # Analyze code structure and patterns
-/document --type code --format markdown --context7         # Generate comprehensive code docs
-/validate --code --quality --motherduck                    # Validate code quality and accuracy
-/test --documentation --accessibility --pup                # Test documentation usability
+# Select appropriate content template
+/template --blog --technical --outline --examples --context7
+
+# Analyze content library for reuse opportunities
+/library --search --technical --gaps --extract --motherduck
+
+# Generate strategic content outline
+/outline --blog --detailed --seo-focused --engagement --sequential
 ```
 
-**Progressive Learning Structure**
+### ✍️ **Phase 3: Content Creation**
+Research-driven content development:
+
 ```bash
-/analyze --documentation --think --persona-mentor          # Analyze learning progression needs
-/build --docs --sequential --persona-mentor --context7     # Build progressive tutorial content
-/test --usability --accessibility --pup                    # Test learning experience
-/validate --documentation --clarity --seq                  # Validate educational effectiveness
+# Write initial draft with research integration
+/write --draft --research --library --technical-accuracy
+
+# Generate supporting diagrams
+/diagram --architecture --technical --placement --branded
+
+# Validate all code examples
+/audit-code --comprehensive --javascript --python --security
 ```
 
-**Quality Standards**
+### 🔧 **Phase 4: Quality & Publishing**
+Content refinement and distribution:
+
 ```bash
-/analyze --documentation --think-hard --persona-qa         # Deep quality analysis
-/validate --documentation --accessibility --context7       # Validate compliance and standards
-/test --documentation --usability --performance --pup      # Test user experience and performance
-/improve --documentation --clarity --seq --persona-qa      # Optimize for quality and clarity
+# Refine content against research and brand guidelines
+/refine --accuracy --consistency --seo --engagement --context7
+
+# Publish to Strapi CMS with full optimization
+/publish --blog-post --publish --format --metadata --media
 ```
 
-### 🎛️ **MCP Integration for Technical Writing**
-- **MotherDuck**: DuckDB cloud analytics for data analysis and SQL validation in technical documentation
-- **Puppeteer**: Browser automation for testing user experience and validating documentation usability
-- **Sequential**: Multi-step analysis and strategic thinking for breaking down complex technical concepts
-- **Context7**: Documentation standards, style guide compliance, and consistency across technical content
+## 🎮 Complete Workflow Examples
 
-**⚠️ Important:** SuperClaude does not include MCP servers. You need to install them separately in Claude Code's MCP settings to use MCP-related functionality.
-
-### 📊 **Token Efficiency**
-SuperClaude's clean configuration helps manage token usage:
-- **Concise communication** while maintaining clarity
-- **Structured documentation** for efficient information transfer
-- **Progressive complexity** to avoid overwhelming users
-- **Context-aware explanations** focused on user needs
-
-## 🎮 Example Technical Writing Workflows
-
-### Code Documentation Project
+### Technical Blog Post Creation
 ```bash
-/analyze --code --motherduck --persona-architect          # Analyze codebase structure
-/document --type code --format markdown --seq             # Generate comprehensive code docs
-/validate --documentation --accessibility --context7      # Validate documentation quality
-/test --documentation --usability --pup                   # Test user experience
+# 1. Research phase
+/research --web --technical --competitors --deep
+/research --internal --codebase --docs --technical
+
+# 2. Planning phase  
+/template --blog --technical --outline --seo
+/library --search --technical --code-examples --performance
+/outline --blog --detailed --technical-depth --sequential
+
+# 3. Creation phase
+/write --draft --research --library --code-examples
+/diagram --architecture --technical --detailed
+/audit-code --comprehensive --security --performance
+
+# 4. Publishing phase
+/refine --technical-accuracy --brand-voice --seo
+/publish --blog-post --publish --metadata --social-preview
 ```
 
-### Technical User Guide Creation
+### Customer Case Study Development
 ```bash
-/analyze --documentation --think --persona-mentor         # Analyze existing docs and user needs
-/build --docs --sequential --persona-mentor              # Build progressive learning guides
-/test --accessibility --usability --pup                  # Test guide usability
-/validate --documentation --quality --context7           # Validate clarity and accuracy
+# 1. Research customer success story
+/research --customers --industry --case-studies --testimonials
+
+# 2. Create case study structure
+/template --case-study --customer --sections --results
+/outline --case-study --detailed --engagement --roi-focused
+
+# 3. Develop comprehensive case study
+/write --testimonials --metrics --technical-details --outcomes
+/diagram --timeline --results --infographic --branded
+
+# 4. Optimize and publish
+/refine --engagement --conversion --brand-guidelines
+/publish --case-study --categories --social-media --analytics
 ```
 
-### API Documentation Development
+### Product Whitepaper Creation
 ```bash
-/analyze --api --architecture --seq --persona-backend     # Analyze API structure and patterns
-/document --type api --format openapi --motherduck       # Generate API docs with data validation
-/test --api --integration --pup                          # Test API examples and integration
-/validate --api --security --performance                 # Validate API security and performance
+# 1. Deep technical and market research
+/research --technical --market-intel --competitors --think-hard
+/research --internal --product --architecture --performance
+
+# 2. Comprehensive whitepaper planning
+/template --whitepaper --executive --technical --comprehensive
+/outline --whitepaper --technical-depth --authority-building
+
+# 3. Technical content development
+/write --sections --technical --research --benchmarks
+/diagram --architecture --flow --technical --detailed
+/audit-code --production-ready --security --documentation
+
+# 4. Executive refinement and publishing
+/refine --technical-accuracy --executive-summary --thought-leadership
+/publish --whitepaper --gated --lead-generation --analytics
 ```
 
-### Documentation Quality Audit
+## 🎛️ **MCP Integration for Marketing**
+
+SuperClaude leverages powerful MCP servers for enhanced marketing capabilities:
+
+- **MotherDuck**: Data analysis, performance metrics validation, SQL optimization for technical content
+- **Puppeteer**: Competitive website analysis, accessibility testing, social media preview validation
+- **Sequential**: Multi-step strategic thinking, complex workflow planning, competitive positioning
+- **Context7**: Brand compliance validation, style guide consistency, documentation standards
+
+**⚠️ Important:** SuperClaude does not include MCP servers. Install them separately in Claude Code's MCP settings.
+
+## 📊 Content Quality Standards
+
+### Research Accuracy
+- All performance claims backed by verified benchmarks
+- Competitive analysis based on current market data
+- Customer testimonials and case studies validated
+- Technical information verified against implementations
+
+### Brand Consistency
+- Voice and tone alignment with brand guidelines
+- Consistent messaging across content types
+- Visual consistency in diagrams and media
+- Terminology standardization
+
+### Technical Accuracy
+- All code examples tested and functional
+- Security recommendations current and compliant
+- API documentation matches current versions
+- Performance metrics verified and reproducible
+
+### Content Optimization
+- SEO optimization for target keywords
+- Conversion optimization with clear CTAs
+- Accessibility compliance for diverse audiences
+- Mobile-friendly responsive design
+
+## 🛠️ Advanced Configuration
+
+### Research Sources Configuration
 ```bash
-/analyze --documentation --think-hard --persona-qa       # Deep documentation analysis
-/validate --documentation --accessibility --context7     # Check compliance and quality
-/test --documentation --usability --pup                  # Test user experience
-/improve --documentation --clarity --seq                 # Optimize for clarity and structure
+# Configure research depth and sources
+/research --config-sources --web-apis --internal-indexes
+/research --set-competitive-list --industry-keywords
 ```
 
-## 🎭 Technical Writing Approach
-
-SuperClaude focuses on a unified technical writing methodology that combines:
-
-| Capability | Focus Area | Tools | Use Cases |
-|-----------|-----------|-------|-----------|
-| **Code Documentation** | Comprehensive explanations | Sequential, Context7 | Code comments, API docs |
-| **Progressive Learning** | Incremental complexity | Sequential, MotherDuck | User guides, tutorials |
-| **Quality Assurance** | Accuracy and clarity | Context7, Puppeteer | Documentation testing |
-| **Data Validation** | Technical accuracy | MotherDuck, Sequential | SQL validation, analytics |
-
-## 🛠️ Configuration Options
-
-### Data Analysis Control
+### Brand Compliance Setup
 ```bash
-# Standard analysis
-/analyze --campaign --motherduck
-
-# Deeper analysis  
-/analyze --competitive --think-hard
-
-# Maximum depth
-/analyze --market --ultrathink
+# Configure brand guidelines and voice
+/template --brand-config --voice-tone --messaging
+/refine --brand-setup --style-guide --terminology
 ```
 
-### Brand Compliance
+### Publishing Workflow Customization
 ```bash
-# Enable brand compliance checking
-/review --brand --strict
-
-# Validate against brand guidelines
-/validate --brand --compliance --zero-tolerance
-
-# Audit brand consistency
-/analyze --brand --comprehensive --persona-brand-strategist
+# Configure Strapi integration
+/publish --config-strapi --content-types --metadata-schema
+/publish --setup-analytics --tracking --performance-metrics
 ```
-
-### Token Management
-```bash
-# Standard mode
-/build --campaign --magic
-
-# With compression
-/analyze --funnel --uc
-
-# Native tools only
-/validate --sql --no-mcp
-```
-
-### Evidence-Based Marketing
-SuperClaude enforces:
-- Data sources for all performance claims
-- Analytics validation for campaign metrics
-- Statistical significance for A/B testing
-- Brand compliance for all content
-- ROI tracking for campaign spend
 
 ## 📋 Command Categories
 
-### Campaign & Strategy (4 Commands)
-- `/build` - Campaign and content builder
-- `/analyze` - Multi-dimensional marketing analysis
-- `/design` - Brand and campaign strategy
-- `/test` - A/B testing and optimization framework
+### Research & Discovery (1 Command)
+- `/research` - Comprehensive content research and competitive analysis
 
-### Content & Brand (3 Commands)
-- `/review` - Content and brand compliance review
-- `/document` - Marketing documentation creation
-- `/improve` - Content and campaign optimization
+### Content Planning (3 Commands)
+- `/template` - Content templates for different document types
+- `/library` - Content library management and reuse optimization
+- `/outline` - Strategic content outline generation
 
-### Analytics & Data (4 Commands)
-- `/validate` - Data quality and SQL validation
-- `/scan` - Performance and compliance auditing
-- `/estimate` - Campaign planning and budgeting
-- `/troubleshoot` - Marketing analytics debugging
+### Content Creation (2 Commands)  
+- `/write` - Progressive article writing with research integration
+- `/diagram` - SVG diagram generation with placement intelligence
 
-### Operations (4 Commands)
-- `/deploy` - Campaign launch and management
-- `/migrate` - Platform and data migrations
-- `/cleanup` - Campaign and asset maintenance
-- `/git` - Version control for marketing assets
+### Quality Assurance (2 Commands)
+- `/audit-code` - Code snippet accuracy and security validation
+- `/refine` - Content optimization against research and brand guidelines
 
-## 🔧 Technical Architecture v0.0.1
+### Publishing (1 Command)
+- `/publish` - Strapi CMS integration with automated optimization
 
-SuperClaude v0.0.1's technical writing architecture focuses on clarity and efficiency:
-
-**🏗️ Clean Configuration**
-- **CLAUDE.md** – Core technical writing configuration
-- **Documentation Standards** – Structured approach to code explanations
-- **Progressive Learning** – Incremental complexity building
-- **Quality Templates** – Consistent formatting and structure
-
-**🎯 Unified Technical Writing System**
-- **Code Documentation** – Comprehensive explanations with comments
-- **Keyword Framework** – Bold formatting for technical terms
-- **Step-by-Step Process** – Numbered explanations for clarity
-- **Context Integration** – Practical value explanations
-
-**📦 Architecture Benefits**
-- **Clarity Focus** – Clear, accessible communication
-- **User Success** – Documentation that enables achievement
-- **Token Efficiency** – Concise yet comprehensive explanations
-- **Quality Assurance** – Validation and testing standards
-
-**✅ Quality Features**
-- **Evidence-Based Approach** – Data validation for technical claims
-- **MCP Integration** – Technical writing tool orchestration
-- **Progressive Complexity** – Incremental learning structure
-- **Accessibility Focus** – Diverse audience consideration
-
-## 📊 Comparison
-
-| Aspect | Standard Claude Code | SuperClaude Technical Writing |
-|--------|---------------------|----------------------|
-| **Expertise** | General responses | Specialized technical writing approach |
-| **Documentation** | Manual instructions | Structured code explanations |
-| **Context** | Session-based | Progressive learning support |
-| **Tokens** | Standard usage | Efficient, clear communication |
-| **Approach** | General purpose | Evidence-based technical writing |
-| **Quality** | Variable | Systematic accuracy and clarity |
-| **Structure** | Ad-hoc | Keyword breakdown and step-by-step |
-| **Integration** | Basic tools | Technical writing MCP orchestration |
+### Analytics (extends existing commands)
+- Enhanced `/analyze` commands for content performance tracking
 
 ## 🎯 Suitability
 
-**Good fit for:**
-- ✅ Development teams needing consistent technical documentation
-- ✅ Projects requiring clear code explanations
-- ✅ Evidence-based technical writing practices
-- ✅ Token-conscious documentation workflows
-- ✅ Data-driven documentation validation
-- ✅ Quality assurance requirements
+**Perfect for:**
+- ✅ Marketing teams creating technical content
+- ✅ Developer relations and technical marketing
+- ✅ Content teams needing systematic workflows
+- ✅ Organizations requiring brand consistency
+- ✅ Teams publishing to headless CMS platforms
+- ✅ Content creators leveraging existing technical materials
 
 **May not suit:**
-- ❌ Purely manual documentation workflows
-- ❌ Minimal configuration preferences
-- ❌ Ad-hoc writing styles
-- ❌ Single-format documentation focus
+- ❌ Simple, single-author blog workflows
+- ❌ Non-technical marketing content only
+- ❌ Organizations without existing technical documentation
+- ❌ Teams not using structured content management
 
 ## 🚦 Getting Started
 
@@ -307,59 +309,58 @@ SuperClaude v0.0.1's technical writing architecture focuses on clarity and effic
    git clone https://github.com/matsonj/SuperClaude.git && cd SuperClaude && ./install.sh
    ```
 
-2. **Validate Installation**
+2. **Configure Your Workflow**
    ```bash
-   /load                                    # Load marketing context
-   /analyze --campaign --think              # Test analysis
-   /analyze --brand --persona-brand-strategist  # Try personas
+   /research --config-sources                    # Set up research sources
+   /template --brand-config                      # Configure brand guidelines
+   /library --scan --codebase --docs            # Index existing content
    ```
 
-3. **Example Marketing Workflow**
+3. **Create Your First Marketing Content**
    ```bash
-   /analyze --market --competitive        # Market research
-   /build --campaign --strategy          # Campaign development
-   /test --ab-test --conversion          # Performance testing
-   /deploy --campaign --monitor          # Campaign launch
+   /research --web --industry --competitors      # Research your topic
+   /template --blog --technical --outline        # Create content template
+   /outline --detailed --seo-focused            # Generate strategic outline
+   /write --draft --research --library          # Write your content
+   /publish --blog-post --strapi               # Publish to CMS
    ```
 
 ## 🛟 Support
 
 - **Installation Help**: Run `./install.sh --help`
-- **Command Details**: Check `~/.claude/commands/`
+- **Command Details**: See [MARKETING-COMMANDS.md](MARKETING-COMMANDS.md)
 - **Contributing**: See [CONTRIBUTING.md](CONTRIBUTING.md)
 - **Issues**: [GitHub Issues](https://github.com/matsonj/SuperClaude/issues)
 
 ## 🤝 Community
 
 SuperClaude welcomes contributions:
-- **New Personas** for specialized marketing workflows
-- **Commands** for marketing-specific operations  
-- **Patterns** for marketing best practices
-- **Integrations** for marketing productivity tools
+- **New Templates** for different marketing content types
+- **Research Sources** for industry-specific content
+- **CMS Integrations** beyond Strapi
+- **Analytics Integrations** for performance tracking
 
 Join the community: [Discussions](https://github.com/matsonj/SuperClaude/discussions)
 
-## 📈 Version 0.0.1 Technical Writing Changes
+## 📈 Version 0.0.2 Marketing Workflow Features
 
-**🎯 Technical Writing Architecture:**
-- **Technical Writing Configuration**: Complete technical documentation-focused configuration system
-- **Token Efficiency**: Clear, concise communication maintained
-- **Documentation Standards**: Structured code explanations with comprehensive comments
-- **Progressive Learning**: Incremental complexity building with clear connections
-- **MCP Integration**: MotherDuck, Puppeteer, Sequential, Context7
-- **Quality Assurance**: Systematic accuracy and clarity validation
+**🎯 Complete Marketing Workflow:**
+- **10-Step Process**: Research → Templates → Library → Outline → Write → Refine → Diagrams → Audit → Publish → Analytics
+- **Content Quality**: Technical accuracy, brand consistency, SEO optimization
+- **Visual Enhancement**: SVG diagram generation with intelligent placement
+- **CMS Integration**: Strapi publishing with automated metadata generation
+- **Performance Tracking**: Analytics integration and content optimization
 
-**📊 Technical Writing Framework Details:**
-- **Methodology**: Evidence-based technical writing approach
-- **Structure**: Keyword breakdown with bold formatting
-- **Process**: Step-by-step explanations for clarity
-- **Context**: Practical value explanations for user success
-- **Usage**: By development teams and technical writers
+**📊 Marketing Framework Capabilities:**
+- **Research-Driven**: Web research, competitive analysis, internal content discovery
+- **Template-Based**: Proven templates for blogs, case studies, whitepapers, press releases
+- **Library Integration**: Leverage existing codebase, documentation, and marketing materials
+- **Quality Assurance**: Technical validation, brand compliance, accessibility standards
 
-## 🎉 Enhance Your Technical Writing
+## 🎉 Transform Your Marketing Content Creation
 
-SuperClaude provides a structured approach to using Claude Code with specialized technical writing standards, clear communication patterns, and documentation excellence.
+SuperClaude provides a systematic approach to creating high-quality marketing content that leverages your existing technical materials while ensuring accuracy, consistency, and conversion optimization.
 
 ---
 
-*SuperClaude v0.0.1 – Technical writing framework for Claude Code*
+*SuperClaude v0.0.2 – Marketing copy workflow framework for Claude Code*
